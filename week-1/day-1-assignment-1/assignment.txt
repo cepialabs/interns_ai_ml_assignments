@@ -1,0 +1,130 @@
+1. Print “Hello, World!”
+print("Hello, World!")
+
+2. Add two numbers
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print("Sum:", a + b)
+
+3. Check if a number is even or odd
+n = int(input("Enter number: "))
+if n % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+4. Find the largest of two numbers
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+print("Largest:", a if a > b else b)
+
+5. Find the largest of three numbers
+a = int(input())
+b = int(input())
+c = int(input())
+print("Largest:", max(a, b, c))
+
+6. Check whether a number is positive, negative, or zero
+n = int(input())
+if n > 0:
+    print("Positive")
+elif n < 0:
+    print("Negative")
+else:
+    print("Zero")
+
+7. Find factorial of a number
+n = int(input())
+fact = 1
+for i in range(1, n + 1):
+    fact *= i
+print("Factorial:", fact)
+
+8. Check if a number is prime
+n = int(input())
+flag = True
+for i in range(2, n):
+    if n % i == 0:
+        flag = False
+        break
+print("Prime" if flag and n > 1 else "Not Prime")
+
+9. Print numbers from 1 to N
+n = int(input())
+for i in range(1, n + 1):
+    print(i)
+
+10. Print sum of first N natural numbers
+n = int(input())
+print("Sum:", n * (n + 1) // 2)
+
+11. Reverse a number
+n = int(input())
+rev = 0
+while n > 0:
+    rev = rev * 10 + n % 10
+    n //= 10
+print("Reverse:", rev)
+
+12. Check palindrome number
+n = int(input())
+temp = n
+rev = 0
+while n > 0:
+    rev = rev * 10 + n % 10
+    n //= 10
+print("Palindrome" if temp == rev else "Not Palindrome")
+
+13. Find sum of digits
+n = int(input())
+s = 0
+while n > 0:
+    s += n % 10
+    n //= 10
+print("Sum of digits:", s)
+
+14. Swap two numbers
+a = int(input())
+b = int(input())
+a, b = b, a
+print("a:", a, "b:", b)
+
+15. Convert Celsius to Fahrenheit
+c = float(input())
+f = (c * 9/5) + 32
+print("Fahrenheit:", f)
+
+16. Check leap year
+year = int(input())
+if year % 400 == 0 or (year % 4 == 0 and year % 100 != 0):
+    print("Leap Year")
+else:
+    print("Not Leap Year")
+
+17. Find square and cube of a number
+n = int(input())
+print("Square:", n*n)
+print("Cube:", n*n*n)
+
+18. Count vowels in a string
+s = input().lower()
+count = 0
+for ch in s:
+    if ch in "aeiou":
+        count += 1
+print("Vowels:", count)
+
+19. Find length of a string (without len())
+s = input()
+count = 0
+for _ in s:
+    count += 1
+print("Length:", count)
+
+20. Print multiplication table
+n = int(input())
+for i in range(1, 11):
+    print(n, "x", i, "=", n*i)
+
+
+To secure a challenging position in a reputed IT company where I can apply my technical knowledge, gain industry experience, and grow as a professional software engineer.
