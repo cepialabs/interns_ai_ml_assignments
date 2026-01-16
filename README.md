@@ -1,80 +1,45 @@
-# 📘 Internship Assignment Submission Guidelines
+                             🚀 Career Path: Artificial Intelligence & Machine Learning
+👋 About Me
 
-All interns must **strictly follow** the branching and folder structure below when submitting assignments.  
-This ensures:
+Hi, I’m Seerat Metkari, a Computer Engineering student passionate about Artificial Intelligence, Machine Learning, and Data Science.
+I am actively building my skills through projects, internships, and hands-on practice, with the goal of becoming a skilled AI/ML Engineer.
 
-- Timely evaluation  
-- Accurate skill-wise scoring  
-- Better visibility throughout your internship tenure  
 
----
+🎯 Career Objective
 
-## ✅ Step 1: Create Your Branch
+To build a strong career in AI & Machine Learning by:
 
-Create a new branch using your **Internship ID**.
+Gaining deep knowledge of ML algorithms and AI concepts
 
-**Branch format:**
-INT-25-FS-2567
+Solving real-world problems using data-driven approaches
 
-javascript
-Copy code
+Working on impactful projects and industry-level applications
 
-> You will receive your Internship ID from the Ignite platform.
 
-**Example command:**
-```bash
-git checkout -b INT-25-FS-2567
-📁 Step 2: Create Weekly Folders
-Inside your branch, create folders for each week:
+🧠 Skills & Technologies
 
-python-repl
-Copy code
-week-1/
-week-2/
-week-3/
-...
-📂 Step 3: Create Day-wise Assignment Folders
-Inside each week folder, create directories for each assignment using this format:
+Programming: Python, Java, C++
 
-sql
-Copy code
-day-1-assignment-1/
-day-1-assignment-2/
-day-2-assignment-1/
-...
-Example folder structure:
+AI / ML:
 
-sql
-Copy code
-INT-25-FS-2567/
-└── week-1/
-    ├── day-1-assignment-1/
-    ├── day-1-assignment-2/
-    └── day-2-assignment-1/
-📤 Step 4: Submit Your Work
-Place all your assignment files (code, documentation, screenshots, etc.) inside the appropriate folder.
+Machine Learning (Supervised & Unsupervised)
 
-Then commit and push your work:
+Data Preprocessing & Feature Engineering
 
-bash
-Copy code
-git add .
-git commit -m "Week 1 Day 1 Assignment 1 submission"
-git push origin INT-25-FS-2567
-⭐ Why This Structure Matters
-Following this structure ensures:
+Model Training & Evaluation
 
-✅ Faster and fair evaluation
+Libraries & Tools:
 
-✅ Accurate mapping of your work to skills
+NumPy, Pandas, Matplotlib, Scikit-learn
 
-✅ Better visibility of your progress
+Web & Backend:
 
-✅ Stronger internship profile
+Django, HTML, CSS, Bootstrap, JavaScript
 
-✅ Improved final evaluation score
+Databases: MySQL
 
-⚠️ Non-structured submissions may not be evaluated.
+Version Control: Git & GitHub
 
-🧑‍💻 Be Professional. Be Consistent. Build Like an Engineer.
-If you face any issues, please contact your mentor or the tech support team.
+
+Github Account:
+GitHub: https://github.com/seerat-08
