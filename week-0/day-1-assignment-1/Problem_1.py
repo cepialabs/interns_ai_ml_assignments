@@ -32,9 +32,9 @@ print("Division:", p / q)
 
 
 # 7. Find remainder
-p = float(input("Enter first number: "))
-q = float(input("Enter second number: "))
-print("Remainder:", 17 % 3)
+c = float(input("Enter first number: "))
+d = float(input("Enter second number: "))
+print("Remainder:", c % d)
 
 
 # 8. Check even or odd
