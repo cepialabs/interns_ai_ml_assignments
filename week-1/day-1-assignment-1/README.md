@@ -1,4 +1,4 @@
-# Day 1 – Assignment 2  
+# Day 1 – Assignment 1 
 📅 Date: 19 January 2026  
 
 ## Problem Statement
