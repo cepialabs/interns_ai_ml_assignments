@@ -14,6 +14,7 @@ Assignment Description:
 4.Visualize price distribution
 
 Topics Covered
+
 NumPy random number generation
 
 Statistical calculations (mean/average)
