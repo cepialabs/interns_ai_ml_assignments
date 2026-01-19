@@ -6,8 +6,11 @@ Date: January 19, 2026
 Assignment Description:
 
 1.Generate 10,000 random house prices using NumPy 
+
 2.Calculate average price
+
 3.Remove outliers
+
 4.Visualize price distribution
 
 Topics Covered
