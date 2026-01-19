@@ -4,12 +4,6 @@
 
 ---
 
-## Assignment: House Price Analysis
-
-This folder contains the assignment file for **Week 1, Day 1**.
-
----
-
 ### Assignment Description
 
 This assignment focuses on **generating random house prices**, calculating statistics, removing outliers, and visualizing the results using Python libraries **NumPy** and **Matplotlib**.
