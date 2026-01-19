@@ -16,10 +16,10 @@ This assignment focuses on **generating random house prices**, calculating stati
 
 The tasks include:
 
-1. **Generate 10,000 random house prices** in the range of ₹10,00,000 to ₹1,00,00,000 using **NumPy**.  
+1. **Generate 10,000 random house prices** using **NumPy**.  
 2. **Calculate the average house price**.  
-3. **Remove outliers** using the **Interquartile Range (IQR) method**.  
-4. **Visualize the price distribution** without outliers using **Matplotlib**.  
+3. **Remove outliers**.  
+4. **Visualize the price distribution**.  
 
 ---
 
