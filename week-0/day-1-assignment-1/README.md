@@ -35,7 +35,7 @@ AI systems can help make better decisions, automate tasks, and improve people's 
 ```
 
 INT-25-FS-2567/
-└── week-1/
+└── week-0/
     ├── day-1-assignment-1/
         ├── Basic-Python.ipynb
         └── README.md
