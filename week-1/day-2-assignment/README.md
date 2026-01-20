@@ -6,8 +6,11 @@ This assignment focuses on exploratory data analysis (EDA) using the Netflix Tit
 
 ## Dataset Details
 Dataset Name: Netflix Titles
+
 Source: Kaggle
+
 Link: https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download
+
 File Used: netflix_titles.csv
 
 ## Objectives / Tasks
