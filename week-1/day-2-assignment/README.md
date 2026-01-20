@@ -42,8 +42,6 @@ The following tasks were completed as part of this assignment:
 
 -README.md — Assignment description and instructions
 
--netflix_titles.csv — Dataset file (if included)
-
 
 ## Output / Visualizations Included
 Bar chart: Top 10 Genres
