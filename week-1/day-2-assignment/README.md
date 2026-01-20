@@ -1,4 +1,4 @@
-NETFLIX TITLES DATA ANALYSIS - ASSIGNMENT
+                                                            NETFLIX TITLES DATA ANALYSIS - ASSIGNMENT
 
 
 
@@ -28,11 +28,13 @@ This assignment analyzes the Netflix Titles dataset to understand:
 
 
 
+
 2\) FILES SUBMITTED
 
 \- day-1-assignment.ipynb
 
 \- netflix\_titles.csv
+
 
 
 
