@@ -1,138 +1,42 @@
-                                                            NETFLIX TITLES DATA ANALYSIS - ASSIGNMENT
-
-
-
-Intern ID : INT2026-1462
-
-Dataset   : netflix\_titles.csv
-
-Tool      : Python (Pandas, Matplotlib)
-
-
-
-
-
-1\) OBJECTIVE
-
-This assignment analyzes the Netflix Titles dataset to understand:
-
-\- Most frequent genres on Netflix
-
-\- Movies vs TV Shows distribution
-
-\- Content added per year
-
-\- Countries producing the most Netflix content
-
-
-
-
-
-
-2\) FILES SUBMITTED
-
-\- day-1-assignment.ipynb
-
-\- netflix\_titles.csv
-
-
-
-
-
-
-3\) TASKS COMPLETED
-
-
-
-Task 1: Top 10 Most Frequent Genres
-
-\- Split the "listed\_in" column into individual genres
-
-\- Counted the frequency of each genre
-
-\- Displayed top 10 genres
-
-\- Plotted bar chart for visualization
-
-
-
-Top Genre: International Movies
-
-
-
-
-
-Task 2: Movies vs TV Shows Distribution
-
-\- Counted Movies and TV Shows using the "type" column
-
-\- Plotted pie chart for distribution comparison
-
-
-
-
-
-Task 3: Content Added Per Year
-
-\- Converted "date\_added" column into datetime format
-
-\- Extracted year from date\_added
-
-\- Counted titles added per year
-
-\- Plotted line chart to show yearly trend
-
-
-
-
-
-Task 4: Country Producing Most Content
-
-\- Split the "country" column into individual countries
-
-\- Counted content produced by each country
-
-\- Displayed top 10 countries
-
-\- Plotted bar chart for visualization
-
-
-
-Top Country: United States
-
-
-
-
-
-4\) LIBRARIES USED
-
-\- pandas
-
-\- matplotlib.pyplot
-
-
-
-
-
-5\) HOW TO RUN
-
-1\. Keep "netflix\_titles.csv" in the same folder as the notebook
-
-2\. Open "day-1-assignment.ipynb" in Jupyter Notebook / VS Code / Google Colab
-
-3\. Run all cells to generate output and graphs
-
-
-
-
-
-6\) OUTPUTS / GRAPHS
-
-\- Top 10 Genres (Bar Chart)
-
-\- Movies vs TV Shows (Pie Chart)
-
-\- Content Added Per Year (Line Chart)
-
-\- Top 10 Countries (Bar Chart)
-
+  #  Day 2 Assignment — Netflix Titles Analysis
+Date: January 20, 2026
+
+##Overview
+This assignment focuses on exploratory data analysis (EDA) using the Netflix Titles dataset. The goal is to understand the distribution of content on Netflix by genre, type, year of addition, and country of production.
+
+##Dataset Details
+Dataset Name: Netflix Titles
+Source: Kaggle
+Link: https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download
+File Used: netflix_titles.csv
+
+##Objectives / Tasks
+The following tasks were completed as part of this assignment:
+Top 10 Most Frequent Genres
+Extract genres from the listed_in column
+Find the 10 most common genres
+Visualize the result using a bar chart
+Movies vs TV Shows Distribution
+Compare the count of Movies and TV Shows using the type column
+Visualize the distribution using a pie chart
+Analyze Content Added Per Year
+Convert date_added to datetime
+Extract year from date_added
+Count how many titles were added each year
+Visualize the trend using a line chart
+Top Countries Producing Content
+Extract individual countries from the country column
+Identify the top producing countries
+Visualize the result using a bar chart
+
+
+
+##Files Submitted
+assignment-2.ipynb — Notebook containing complete analysis and visualizations
+README.md — Assignment description and instructions
+netflix_titles.csv — Dataset file (if included)
+
+##Output / Visualizations Included
+Bar chart: Top 10 Genres
+Pie chart: Movies vs TV Shows
+Line chart: Content added per year
