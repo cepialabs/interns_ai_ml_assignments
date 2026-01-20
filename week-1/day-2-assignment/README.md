@@ -55,6 +55,12 @@ The goal of this assignment is to perform **basic exploratory data analysis** us
 ✔ Analysis is done strictly using **Pandas only**.
 
 ---
+## 📁 Dataset Note
+The dataset `netflix_titles.csv` is not uploaded due to size limits.
+
+Dataset Source:
+Netflix Movies and TV Shows – Kaggle  
+https://www.kaggle.com/datasets/shivamb/netflix-shows
 
 ---
 
