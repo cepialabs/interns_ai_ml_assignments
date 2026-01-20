@@ -1,16 +1,16 @@
   #  Day 2 Assignment — Netflix Titles Analysis
 Date: January 20, 2026
 
-##Overview
+## Overview
 This assignment focuses on exploratory data analysis (EDA) using the Netflix Titles dataset. The goal is to understand the distribution of content on Netflix by genre, type, year of addition, and country of production.
 
-#Dataset Details
+## Dataset Details
 Dataset Name: Netflix Titles
 Source: Kaggle
 Link: https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download
 File Used: netflix_titles.csv
 
-#Objectives / Tasks
+## Objectives / Tasks
 The following tasks were completed as part of this assignment:
 Top 10 Most Frequent Genres
 Extract genres from the listed_in column
@@ -31,12 +31,12 @@ Visualize the result using a bar chart
 
 
 
-#Files Submitted
+## Files Submitted
 assignment-2.ipynb — Notebook containing complete analysis and visualizations
 README.md — Assignment description and instructions
 netflix_titles.csv — Dataset file (if included)
 
-#Output / Visualizations Included
+## Output / Visualizations Included
 Bar chart: Top 10 Genres
 Pie chart: Movies vs TV Shows
 Line chart: Content added per year
