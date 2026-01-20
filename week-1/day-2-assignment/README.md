@@ -1,4 +1,5 @@
 # Netflix Titles Dataset Analysis
+Date:20 January 2026
 
 ## Project Description
 This project is an exploratory data analysis (EDA) of the Netflix Titles dataset. The objective of this analysis is to understand the distribution of content available on Netflix by genre, content type, year of addition, and country of production. The analysis is performed as part of an internship assignment using Python.
@@ -45,5 +46,4 @@ The main objectives of this project are:
 ## Conclusion
 This project demonstrates practical data analysis skills, including data cleaning, exploratory analysis, and visualization. It provides meaningful insights into Netflix’s content distribution and serves as a hands-on learning experience in working with real-world datasets.
 
-## Date
-**Last Updated:** 20 January 2026
+
