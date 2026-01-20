@@ -14,6 +14,23 @@ The objective is to perform **data analysis and feature extraction** to gain ins
 ## **Dataset Used**
 - **Netflix Titles Dataset**
 - Contains information about movies and TV shows available on Netflix, including genres, release dates, countries, and content type.
+- This assignment is performed using the *Netflix Titles Dataset downloaded from Kaggle*.    
+- The goal of this assignment is to analyze Netflix content and extract meaningful insights using Python.
+
+---
+
+## *Dataset Source*
+
+- *Dataset Name:* Netflix Titles
+- *Source:* Kaggle
+- *URL:* https://www.kaggle.com/datasets/mahmoudtaya/netflix-titles
+- *Description:*  
+  The dataset includes Netflix movies and TV shows with attributes like:
+  - Type (Movie / TV Show)
+  - Listed genres
+  - Country
+  - Date added
+  - Release year
 
 ---
 
