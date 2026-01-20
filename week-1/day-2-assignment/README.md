@@ -16,6 +16,23 @@ Tasks:
 
 https://www.kaggle.com/datasets/mahmoudtaya/netflix-titles
 
+## How to Pull the Dataset from Kaggle
+
+```python
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("mahmoudtaya/netflix-titles")
+print("Path to dataset files:", path)
+
+# Load the dataset CSV
+csv_path = f"{path}/netflix_titles.csv"
+
+df = pd.read_csv(csv_path)
+print(df.head())
+print(df.shape)
+```
+
 ---
 
 ## Instructions
