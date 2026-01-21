@@ -7,7 +7,7 @@
 ## 📁 Dataset  
 **Name:** Customer Churn Dataset  
 **Source:** Kaggle 
-**Url:** "C:\Users\Malli Mounika\Downloads\customer-churn-dataset.csv"
+**Url:** "https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset"
 
 > I used the Customer Churn dataset downloaded from Kaggle and applied data cleaning and preprocessing techniques as required in the assignment.
 
