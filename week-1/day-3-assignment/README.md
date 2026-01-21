@@ -12,7 +12,7 @@ To clean a messy Customer Churn dataset and make it ready for Machine Learning.
 
 # 📂 Dataset
 
-Raw file: customer_churn.csv.csv
+Raw file: customer_churn.csv
 
 
 
