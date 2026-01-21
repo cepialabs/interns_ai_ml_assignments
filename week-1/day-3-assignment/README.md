@@ -1,20 +1,22 @@
-\# Day 1 Assignment - Customer Churn Dataset Cleaning
+                                           ##   Day 3 Assignment - Customer Churn Dataset Cleaning
+
+  # Date : 21-01-2026
 
 
 
-\## 📌 Objective
+# 📌 Objective
 
 To clean a messy Customer Churn dataset and make it ready for Machine Learning.
 
 
 
-\## 📂 Dataset
+# 📂 Dataset
 
-Raw file: `customer\_churn.csv.csv`
+Raw file: customer_churn.csv.csv
 
 
 
-\## 🧾 Data Issues Handled
+# 🧾 Data Issues Handled
 
 \- Missing values in Age column (filled using median)
 
@@ -26,7 +28,7 @@ Raw file: `customer\_churn.csv.csv`
 
 
 
-\## 📊 Visualizations Included
+# 📊 Visualizations Included
 
 \- Bar charts (Churn distribution, Gender distribution)
 
@@ -36,7 +38,7 @@ Raw file: `customer\_churn.csv.csv`
 
 
 
-\## 📁 Files Included
+# 📁 Files Included
 
 \- `customer\_churn.csv.csv` → Raw dataset
 
@@ -48,7 +50,7 @@ Raw file: `customer\_churn.csv.csv`
 
 
 
-\## ✅ Result
+# ✅ Result
 
 Dataset cleaned successfully and saved for machine learning model training.
 
