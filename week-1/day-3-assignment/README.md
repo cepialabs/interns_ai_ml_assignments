@@ -1,5 +1,6 @@
 ## 📊 DAY 3 ASSIGNMENT — Customer Churn Data Cleaning
 Intern ID: INT2026-1462
+
 Date: 21-01-2026
 
 ## 📌 Objective
@@ -28,7 +29,6 @@ day-3-assignment.ipynb
 
 customer_churn_messey.csv
 
-customer_churn_cleaned.csv (generated after cleaning)
 
 ## 🧹 Data Cleaning Steps Performed
 1️⃣ Load Dataset
