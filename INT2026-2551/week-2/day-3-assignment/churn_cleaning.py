@@ -1,52 +1,42 @@
 import pandas as pd
 import numpy as np
 
-# creating a dataset
-data = {
-    "customer_id": [1, 2, 3, 3, 4, 5, 6, 7, 8, 9],
-    "age": [25, np.nan, 45, 45, 130, 38, np.nan, 29, 27, 300],
-    "gender": ["Male", "F", "female", "Female", "M", "male", "FEMALE", "Male", "m", "f"],
-    "salary": [50000, 60000, 55000, 55000, 1000000, 62000, 58000, 61000, 59000, 9999999],
-    "churn": [0, 1, 0, 0, 1, 0, 1, 0, 0, 1]
-}
-
-df = pd.DataFrame(data)
+# Load the dataset
+df = pd.read_csv("customer_churn.csv")
 
 print("Original dataset shape:", df.shape)
 
+# Remove duplicates
 df = df.drop_duplicates()
-
-# Removing duplicate rows
-
 print("After removing duplicates:", df.shape)
 
-#Handling missing rows and fixing inconsistent gender formats
+#  Handle missing values, Fill missing numeric with median
+num_cols = df.select_dtypes(include=np.number).columns
+for col in num_cols:
+    df[col].fillna(df[col].median(), inplace=True)
 
-df["age"] = df["age"].fillna(df["age"].median())
+# Fill categorical missing with mode
+cat_cols = df.select_dtypes(include='object').columns
+for col in cat_cols:
+    df[col].fillna(df[col].mode()[0], inplace=True)
 
-df["gender"] = df["gender"].str.lower()
+#  Standardize inconsistent gender formats (if column exists)
+if "Gender" in df.columns:
+    df["Gender"] = df["Gender"].str.strip().str.lower()
+    df["Gender"] = df["Gender"].replace({'male': 'Male', 'female': 'Female'})
 
-df["gender"] = df["gender"].replace({
-    "m": "male",
-    "f": "female"
-})
+print("After cleaning gender unique values:", df["Gender"].unique() if "Gender" in df.columns else "No Gender column")
 
+# Remove salary outliers if column exists
+if "MonthlyIncome" in df.columns:
+    Q1 = df["MonthlyIncome"].quantile(0.25)
+    Q3 = df["MonthlyIncome"].quantile(0.75)
+    IQR = Q3 - Q1
+    lower = Q1 - 1.5 * IQR
+    upper = Q3 + 1.5 * IQR
+    df = df[(df["MonthlyIncome"] >= lower) & (df["MonthlyIncome"] <= upper)]
+    print("After removing income outliers:", df.shape)
 
-Q1 = df["salary"].quantile(0.25)
-Q3 = df["salary"].quantile(0.75)
-IQR = Q3 - Q1
-
-lower = Q1 - 1.5 * IQR
-upper = Q3 + 1.5 * IQR
-
-df = df[(df["salary"] >= lower) & (df["salary"] <= upper)]
-
-print("After removing outliers:", df.shape)
-
-
-print("\nCleaned dataset:")
-print(df)
-
-# Save cleaned dataset
+# Save cleaned data
 df.to_csv("cleaned_customer_churn.csv", index=False)
-print("\n✅ Cleaned dataset saved as cleaned_customer_churn.csv")
+print("\nCleaned dataset saved as cleaned_customer_churn.csv")

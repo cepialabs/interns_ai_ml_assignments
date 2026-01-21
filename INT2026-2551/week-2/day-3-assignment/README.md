@@ -1,19 +1,14 @@
 # Week 2 – Day 3: Customer Churn Data Cleaning
-
-# Objective
-Clean a messy customer churn dataset and make it ready for machine learning.
-
-# Issues Addressed
-- Missing age values
-- Duplicate rows
-- Inconsistent gender formats
-- Salary outliers
+# Dataset
+Customer Churn dataset from Kaggle
 
 # Cleaning Steps
-- Filled missing age values using median
 - Removed duplicate records
+- Filled missing numeric values using median
+- Filled missing categorical using mode
 - Standardized gender values
-- Removed salary outliers using IQR method
+- Removed outliers in MonthlyIncome using IQR
 
 # Output
-- Final cleaned dataset saved as `cleaned_customer_churn.csv`
+Cleaned dataset saved as `cleaned_customer_churn.csv`
+
