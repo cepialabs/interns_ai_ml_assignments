@@ -1,6 +1,6 @@
 ## 📊 DAY 3 ASSIGNMENT — Customer Churn Data Cleaning
-# Intern ID: INT2026-1462
-# Date: 21-01-2026
+Intern ID: INT2026-1462
+Date: 21-01-2026
 
 ## 📌 Objective
 
