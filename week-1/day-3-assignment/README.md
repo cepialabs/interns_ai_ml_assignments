@@ -1,6 +1,6 @@
-                                           ##   Day 3 Assignment - Customer Churn Dataset Cleaning
+   ##   Day 3 Assignment - Customer Churn Dataset Cleaning
 
-  # Date : 21-01-2026
+  Date : 21-01-2026
 
 
 
@@ -40,13 +40,11 @@ Raw file: customer_churn.csv.csv
 
 # 📁 Files Included
 
-\- `customer\_churn.csv.csv` → Raw dataset
+\- customer_churn.csv.csv → Raw dataset
 
-\- `customer\_churn\_cleaning.ipynb` → Full cleaning notebook
+\- customer_churn.ipynb → Full cleaning notebook
 
-\- `cleaned\_customer\_churn.csv` → Final cleaned dataset
-
-\- `README.md` → Documentation
+\- README.md → Documentation
 
 
 
