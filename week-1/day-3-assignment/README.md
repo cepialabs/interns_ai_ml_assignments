@@ -1,9 +1,9 @@
-## 📊 DAY 3 ASSIGNMENT — Customer Churn Data Cleaning
+##  DAY 3 ASSIGNMENT — Customer Churn Data Cleaning
 Intern ID: INT2026-1462
 
 Date: 21-01-2026
 
-## 📌 Objective
+##  Objective
 
 The objective of this assignment is to clean a messy Customer Churn dataset and make it ready for Machine Learning.
 
@@ -17,20 +17,20 @@ Inconsistent gender formats
 
 Salary outliers
 
-## 📂 Dataset Details
+##  Dataset Details
 
 Dataset Name: Customer Churn (Messy Dataset)
 
 Original File: customer_churn_messey.csv
 
-## 📁 Files Submitted
+##  Files Submitted
 
 day-3-assignment.ipynb
 
 customer_churn_messey.csv
 
 
-## 🧹 Data Cleaning Steps Performed
+##  Data Cleaning Steps Performed
 1️⃣ Load Dataset
 
 Loaded the dataset using Pandas
@@ -87,15 +87,15 @@ Verified cleaned data is ready for Machine Learning
 
 Saved the final cleaned dataset as:
 
-## ✅ customer_churn_cleaned.csv
+##  customer_churn_cleaned.csv
 
-## 🛠️ Libraries Used
+##  Libraries Used
 
 pandas
 
 numpy
 
-## ▶️ How to Run
+##  How to Run
 
 Place customer_churn_messey.csv in the same directory as the notebook
 
@@ -105,10 +105,10 @@ Jupyter Notebook / VS Code / Google Colab
 
 Run all cells to generate the cleaned dataset
 
-## ✅ Output
+##  Output
 
 Final cleaned dataset:
 
 customer_churn_cleaned.csv
 
-The dataset is now cleaned, structured, and ready for Machine Learning model training 🚀
+The dataset is now cleaned, structured, and ready for Machine Learning model training 
