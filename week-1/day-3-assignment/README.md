@@ -1,18 +1,18 @@
-# 📊 DAY 3 ASSIGNMENT 1 
-**Topic:** Data Cleaning Techniques  
+# 📊 DAY 3 ASSIGNMENT 1
+**Topic:** : DATA CLEANING
 **Date:** 21-01-2026  
 
 ---
 
 ## 📁 Dataset  
-**Name:** Telecom Customer Churn Dataset  
+**Name:** Customer Churn Dataset  
 **Source:** Kaggle  
 
-> I downloaded the already cleaned version of the Telecom Churn dataset from Kaggle and used it for this assignment to practice data cleaning and preprocessing techniques.
+> I used the Customer Churn dataset downloaded from Kaggle and applied data cleaning and preprocessing techniques as required in the assignment.
 
 ---
 
-## 🧹 Data Cleaning Techniques Covered (as per assignment)
+## 🧹 Data Cleaning Techniques Covered
 
 - Missing data handling  
 - Duplicate removal  
@@ -41,23 +41,22 @@
 
 ## 🔧 Tasks I Performed in Notebook
 
-Even though the Kaggle dataset was mostly clean, I re-applied the required steps:
-
-1. Checked for missing values  
+1. Filled missing Age values using median  
 2. Removed duplicate records  
-3. Standardized text columns (gender, category fields)  
+3. Standardized Gender text formats  
 4. Detected and removed salary outliers using IQR  
-5. Encoded categorical columns using one-hot encoding  
-6. Scaled numerical features using StandardScaler  
-7. Saved the cleaned dataset for ML use  
+5. Encoded categorical variables (Geography, Gender)  
+6. Scaled numerical features using Min-Max scaling  
+7. Created a new feature (BalanceSalaryRatio)  
+8. Saved the cleaned dataset for ML use  
 
 ---
 
 ## 📂 Files in this Folder
 
-- `telecom_churn.csv` → Original dataset from Kaggle  
-- `data_cleaning_day3.ipynb` → Python notebook  
-- `cleaned_telecom_churn.csv` → Final cleaned dataset  
+- `customer-churn-dataset.csv` → Original dataset  
+- `assignment_1.ipynb` → Data cleaning notebook  
+- `final_clean_customer_churn.csv` → Cleaned dataset  
 - `README.md` → Project documentation  
 
 ---
@@ -71,3 +70,4 @@ The dataset is now:
 - Properly encoded and scaled  
 
 This cleaned dataset is **ready for machine learning models**.
+
