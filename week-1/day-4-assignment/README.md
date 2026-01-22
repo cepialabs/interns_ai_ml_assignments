@@ -54,13 +54,6 @@ writing score
 
 attendance
 
-📁 Project Structure
-week-1/
-└── day-4-assignment/
-    ├── day4assignment.ipynb
-    ├── students_performance.csv
-    └── README.md
-
 
 📈 Visualizations Included
 
