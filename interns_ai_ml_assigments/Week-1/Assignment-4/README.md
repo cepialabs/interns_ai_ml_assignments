@@ -1,4 +1,4 @@
-# 📊 Student Performance Data Analysis
+# 📊 Student Performance Data Visualization Project
 
 This project analyzes the **Student Performance Dataset** using Python to understand academic trends through data visualization and correlation analysis.
 
@@ -57,3 +57,4 @@ The following analyses are performed:
 - Higher attendance generally leads to better scores.
 
 ---
+
