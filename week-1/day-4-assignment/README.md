@@ -1,5 +1,5 @@
-📘 Day 4 Assignment — Student Performance Data Analysis
-
+   ## Day 4 Assignment — Student Performance Data Analysis
+# Date : 22-01-2026
 
 
 Intern ID: INT2026-1462
@@ -12,7 +12,7 @@ Assignment: Day 4
 
 
 
-🎯 Objective
+##  Objective
 
 
 
@@ -22,7 +22,7 @@ This task focuses on applying basic data analysis techniques to gain insights fr
 
 
 
-📂 Dataset Information
+## Dataset Information
 
 
 
@@ -30,7 +30,7 @@ Dataset Name: Student Performance Dataset
 
 
 
-File Name: student\_performance\_dataset.xlsx
+File Name: student_performance_dataset.xlsx
 
 
 
@@ -82,7 +82,7 @@ matplotlib / seaborn (if applicable)
 
 
 
-📌 Tasks Performed
+## Tasks Performed
 
 
 
