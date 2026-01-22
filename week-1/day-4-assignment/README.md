@@ -1,126 +1,64 @@
-   ## Day 4 Assignment — Student Performance Data Analysis
-# Date : 22-01-2026
+# DAY 4 ASSIGNMENT — Student Performance Data Visualization  
+Intern ID: INT2026-1462  
+Day: 4  
+Topic: Data Visualization with Matplotlib & Seaborn  
 
+---
 
-Intern ID: INT2026-1462
+##  Dataset Used
+Dataset Name: Student Performance Dataset  
+File Name:student_performance_dataset.csv
 
-Program: AI/ML Internship
-
-Week: Week 1
-
-Assignment: Day 4
-
-
+---
 
 ##  Objective
+The objective of this assignment is to perform data visualization on the Student Performance dataset and generate meaningful insights using Matplotlib and Seaborn.
 
+---
 
+##  Tasks Completed
 
-The objective of this assignment is to analyze and understand student performance data using Python.
+### 1) Score Distribution Plot
+- Visualized the distribution of student scores  
+- Helps understand overall performance spread (low / average / high)
 
-This task focuses on applying basic data analysis techniques to gain insights from a real-world dataset and prepare it for further Machine Learning tasks.
+### 2) Gender vs Performance Chart
+- Compared performance of students based on gender  
+- Helps identify performance differences between groups
 
+### 3) Correlation Heatmap
+- Created a heatmap to show correlations between numeric features  
+- Helps identify relationships between variables (e.g., attendance, scores, etc.)
 
+### 4) Attendance vs Score Trend Chart
+- Analyzed the trend between student attendance and score  
+- Helps understand whether higher attendance impacts performance
 
-## Dataset Information
+---
 
+##  Files Submitted
+- Assignment-1.ipynb  
+- student_performance_dataset.csv  
+- README.md
 
+---
 
-Dataset Name: Student Performance Dataset
+##  Libraries Used
+- pandas
+- matplotlib
+- seaborn
 
+---
 
 
-File Name: student_performance_dataset.xlsx
 
+## Output Visualizations
+This notebook includes:
+- Score Distribution Plot  
+- Gender vs Performance Chart  
+- Correlation Heatmap  
+- Attendance vs Score Trend Chart  
 
+---
 
-Format: Excel (.xlsx)
-
-
-
-Dataset Contains:
-
-
-
-Student academic details
-
-
-
-Study-related attributes
-
-
-
-Performance-related features
-
-
-
-🛠️ Tools \& Technologies Used
-
-
-
-Python
-
-
-
-Jupyter Notebook
-
-
-
-Libraries Used:
-
-
-
-pandas
-
-
-
-numpy
-
-
-
-matplotlib / seaborn (if applicable)
-
-
-
-## Tasks Performed
-
-
-
-Loaded the dataset using pandas
-
-
-
-Displayed dataset structure and basic information
-
-
-
-Checked:
-
-
-
-Shape of the dataset
-
-
-
-Column names
-
-
-
-Data types
-
-
-
-Identified:
-
-
-
-Missing values
-
-
-
-Basic statistics of numerical columns
-
-
-
-Performed initial data exploration for better understanding
-
+Note: All plots and analysis are available inside the notebook file
