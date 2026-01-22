@@ -45,6 +45,7 @@ The objective of this assignment is to perform data visualization on the Student
 ---
 
 ##  Libraries Used
+- Numpy
 - pandas
 - matplotlib
 - seaborn
