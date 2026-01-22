@@ -1,4 +1,4 @@
-﻿# Day 2 Assignment
+# Day 2 Assignment
 
 **Date:** January 20, 2026
 
@@ -15,6 +15,7 @@ Tasks:
 ## Data Source
 
 https://www.kaggle.com/datasets/mahmoudtaya/netflix-titles
+https://www.kaggle.com/datasets/sonalshinde123/student-academic-performance-dataset
 
 ## How to Pull the Dataset from Kaggle
 
