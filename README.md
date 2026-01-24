@@ -14,7 +14,7 @@ This ensures:
 Create a new branch using your **Internship ID**.
 
 **Branch format:**
-INT-25-FS-2567
+INT2026-3908
 
 javascript
 Copy code
@@ -23,7 +23,7 @@ Copy code
 
 **Example command:**
 ```bash
-git checkout -b INT-25-FS-2567
+git checkout -b INT2026-3908
 📁 Step 2: Create Weekly Folders
 Inside your branch, create folders for each week:
 
@@ -46,7 +46,7 @@ Example folder structure:
 
 sql
 Copy code
-INT-25-FS-2567/
+INT2026-3908/
 └── week-1/
     ├── day-1-assignment-1/
     ├── day-1-assignment-2/
@@ -60,7 +60,7 @@ bash
 Copy code
 git add .
 git commit -m "Week 1 Day 1 Assignment 1 submission"
-git push origin INT-25-FS-2567
+git push origin INT2026-3908
 ⭐ Why This Structure Matters
 Following this structure ensures:
 
