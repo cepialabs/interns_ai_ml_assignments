@@ -34,7 +34,7 @@ AI systems can help make better decisions, automate tasks, and improve people's 
 
 ```
 
-INT-25-FS-2567/
+INT2026-3908/
 └── week-0/
     ├── day-1-assignment-1/
         ├── Basic-Python.ipynb
@@ -70,5 +70,5 @@ My goal is to:
 
 ## 👤 Author
 
-**Krushna Chandra Bindhani**  
+**Swati M Patil**  
 Aspiring Data Scientist / AI-ML Engineer  
