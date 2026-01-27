@@ -58,7 +58,7 @@ This project addresses the following data quality problems:
 ```
 INT2026-3908/
 └── week-1/
-    ├── day-2-assignment-1/
+    ├── day-3-assignment-1/
         ├── customer_churn_cleaning.ipynb
         ├── customer_churn_dataset.csv
         ├── clean_customer_churn.csv

@@ -58,7 +58,7 @@ This project addresses the following analysis tasks:
 ```
 INT2026-3908/
 └── week-1/
-    ├── day-1-assignment-2/
+    ├── day-4-assignment-1/
         ├── student_performance_analysis.ipynb
         ├── StudentsPerformance.csv
         └── README.md

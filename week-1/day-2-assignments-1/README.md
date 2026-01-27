@@ -44,7 +44,7 @@ This analysis answers the following key questions:
 ```
 INT2026-3908/
 └── week-1/
-    ├── day-2-assignment-2/
+    ├── day-2-assignment-1/
         ├── netflix-analysis.ipynb
         └── README.md
 ```
