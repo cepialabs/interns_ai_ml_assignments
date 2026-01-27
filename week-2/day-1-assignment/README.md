@@ -1,6 +1,6 @@
   ## Exploratory Data Analysis – Student Performance Dataset
-# Date:27-01-2026
-# INT2026-1462
+   Date:27-01-2026
+   INT2026-1462
 
 
 ## Project Overview
