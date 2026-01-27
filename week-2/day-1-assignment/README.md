@@ -1,5 +1,6 @@
   ## Exploratory Data Analysis – Student Performance Dataset
    Date:27-01-2026
+   
    INT2026-1462
 
 
@@ -11,9 +12,9 @@ This project performs Exploratory Data Analysis (EDA) on student performance dat
 
 ## Dataset
 
-#Source: Kaggle – Students Performance in Exams  
+Source: Kaggle – Students Performance in Exams  
 
-#Format: CSV
+Format: CSV
 
 
 
