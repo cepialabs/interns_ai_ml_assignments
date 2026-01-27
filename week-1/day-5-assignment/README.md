@@ -1,16 +1,14 @@
-&nbsp;## Exploratory Data Analysis – Student Performance Dataset
+## Exploratory Data Analysis – Student Performance Dataset
 
-&nbsp;  Date:27-01-2026
+  Date:27-01-2026
 
-&nbsp;  
-
-&nbsp;  INT2026-1462
+  INT2026-1462
 
 
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -18,11 +16,7 @@ This project performs Exploratory Data Analysis (EDA) on student performance dat
 
 
 
-
-
-
-
-\## Dataset
+## Dataset
 
 
 
@@ -38,55 +32,27 @@ Format: CSV
 
 
 
-\## Objectives
+## Objectives
 
 
 
-\- Understand the dataset structure
+- Understand the dataset structure
 
 
 
-\- Clean and prepare data
+- Clean and prepare data
 
 
 
-\- Perform meaningful analysis
+- Perform meaningful analysis
 
 
 
-\- Create visualizations
+- Create visualizations
 
 
 
-\- Extract insights
-
-
-
-
-
-
-
-\## Tools Used
-
-
-
-\- Python
-
-
-
-\- Pandas
-
-
-
-\- NumPy
-
-
-
-\- Matplotlib
-
-
-
-\- Seaborn
+- Extract insights
 
 
 
@@ -94,19 +60,27 @@ Format: CSV
 
 
 
-\## Key Insights
+## Tools Used
 
 
 
-\- Test preparation improves scores
+- Python
 
 
 
-\- Reading and writing scores are highly correlated
+- Pandas
 
 
 
-\- Parental education impacts performance
+- NumPy
+
+
+
+- Matplotlib
+
+
+
+- Seaborn
 
 
 
@@ -114,7 +88,27 @@ Format: CSV
 
 
 
-\## Conclusion
+## Key Insights
+
+
+
+- Test preparation improves scores
+
+
+
+- Reading and writing scores are highly correlated
+
+
+
+- Parental education impacts performance
+
+
+
+
+
+
+
+## Conclusion
 
 
 
