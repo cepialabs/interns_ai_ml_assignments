@@ -22,16 +22,11 @@ Explain in simple terms what the assignment is about:
 ```
 
 .
-├── data/
-│   └── [input data files]
-├── notebooks/
-│   └── assignment_solution.ipynb
-├── src/
-│   └── solution.py
-├── outputs/
-│   └── results.csv
-├── requirements.txt
-└── README.md
+├── week-2/
+    └── day-1-assignment-1/
+        └──Descriptive-Statistics.ipynb
+        └──Marketing_Campaign_Data.csv
+        └── README.md
 
 ```
 
@@ -127,16 +122,10 @@ This assignment repository accepts improvements! If you want to contribute:
 
 ---
 
-## 📜 License
-
-Add the license you’re using (e.g., MIT, Apache).
-*Example: MIT License — see `LICENSE` file.*
-
----
-
 ## 🙋‍ Contact
 
 Your Name – *Your Email or GitHub Profile Link*
 Project link: [https://github.com/cepialabs/interns_ai_ml_assignments](https://github.com/cepialabs/interns_ai_ml_assignments)
 
 ---
+
