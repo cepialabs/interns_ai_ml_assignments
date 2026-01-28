@@ -1,0 +1,87 @@
+# Marketing Campaign Data Analysis
+
+## Project Overview
+This project analyzes a marketing campaign dataset to understand customer spending
+behavior and engagement patterns. The dataset includes customer spend, email engagement,
+ad clicks, and website visits.
+
+## Dataset
+- File: `data/marketing_campaign.csv`
+- Records: 60 customers
+- Features:
+  - customer_id
+  - spend_usd
+  - email_opens
+  - ad_clicks
+  - website_visits
+
+## Analysis Objectives
+1. Calculate average spending per customer
+2. Identify the top 10% of spenders
+3. Detect skewness in customer engagement metrics
+
+## Key Results
+- Average customer spending: $227.53
+- Top 10% spender threshold: $392.25
+- Website visits show moderate right skew, indicating high activity from a subset of users
+
+## Tools Used
+- Python
+- Pandas
+- NumPy
+
+## Use Cases
+- Customer segmentation
+- Targeted marketing strategies
+- Campaign performance evaluation
+customer_id,spend,clicks,email_opens,website_visits
+1001,199.78,9,9,9
+1002,476.34,6,11,12
+1003,371.36,14,5,11
+1004,307.36,19,3,15
+1005,94.89,12,12,9
+1006,94.88,10,11,17
+1007,47.88,18,8,12
+1008,435.76,17,9,11
+1009,308.54,18,8,9
+1010,359.87,13,18,11
+1011,29.88,20,5,10
+1012,485.56,13,3,10
+1013,419.57,13,7,17
+1014,121.92,18,9,14
+1015,107.28,21,6,12
+1016,108.03,10,9,12
+1017,166.04,18,5,15
+1018,271.88,18,2,7
+1019,227.33,15,8,10
+1020,159.79,13,8,13
+1021,313.69,21,6,9
+1022,86.96,14,9,8
+1023,160.23,12,3,8
+1024,195.85,12,5,10
+1025,238.91,22,13,17
+1026,396.88,19,12,12
+1027,115.84,21,10,16
+1028,266.83,13,7,9
+1029,304.36,12,6,13
+1030,42.3,14,5,10
+1031,311.62,10,9,8
+1032,101.85,23,6,11
+1033,51.22,15,4,9
+1034,475.47,25,8,13
+1035,483.5,15,9,13
+1036,408.03,12,10,12
+1037,166.21,16,8,7
+1038,66.88,7,13,16
+1039,348.43,21,6,14
+1040,231.27,10,15,13
+1041,78.58,17,8,11
+1042,257.68,12,10,18
+1043,36.51,13,5,21
+1044,456.47,17,12,8
+1045,144.21,9,9,15
+1046,338.01,13,4,16
+1047,169.62,17,7,15
+1048,269.63,15,4,8
+1049,282.42,17,7,12
+1050,108.73,17,7,17
