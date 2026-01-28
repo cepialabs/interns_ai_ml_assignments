@@ -1,3 +1,4 @@
+INT2026-1740
 # Week-2 Day-1 Assignment – AI/ML Interns
 
 This repository contains the solution for the **Week-2 Day-1 Assignment** of the AI/ML Internship program by Cepia Labs.  
@@ -22,10 +23,10 @@ Explain in simple terms what the assignment is about:
 ```
 
 .
-├── week-2/
-    └── day-1-assignment-1/
-        └──Descriptive-Statistics.ipynb
-        └──Marketing_Campaign_Data.csv
+├── data/
+    └──day-1-assignment-1
+        |──Descriptive-Statistics.ipynb
+        |──Marketing_Campaign_Data.csv
         └── README.md
 
 ```
@@ -128,4 +129,3 @@ Your Name – *Your Email or GitHub Profile Link*
 Project link: [https://github.com/cepialabs/interns_ai_ml_assignments](https://github.com/cepialabs/interns_ai_ml_assignments)
 
 ---
-
