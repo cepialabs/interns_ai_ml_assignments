@@ -1,52 +1,48 @@
-\# Week 2 – Day 1 Assignment
+  ## Marketing campaign dataset
+Date:28-01-2026
+Bodas karunanjali - INT2026-1462
+
+
+## Description
+
+This assignment uses the StudentsPerformance.csv dataset to understand and analyze student academic performance.
 
 
 
-\## Description
+## Dataset
 
-This assignment uses the \*\*StudentsPerformance.csv\*\* dataset to understand and analyze student academic performance.
-
-
-
-\## Dataset
-
-\*\*StudentsPerformance.csv\*\*  
+StudentsPerformance.csv
 
 Contains student details such as:
 
-\- Gender
+- Gender
 
-\- Parental education
+- Parental education
 
-\- Lunch type
+- Lunch type
 
-\- Test preparation
+- Test preparation
 
-\- Math, Reading, and Writing scores
-
-
-
-\## Objective
-
-\- Load the dataset
-
-\- Understand the data structure
-
-\- Perform basic data analysis
+- Math, Reading, and Writing scores
 
 
 
-\## Tools
+## Objective
 
-\- Python
+- Load the dataset
 
-\- Pandas
+- Understand the data structure
+
+- Perform basic data analysis
 
 
 
-\## Author
+## Tools
 
-Karunanjali Bodas  
+- Python
 
-Intern ID: INT2026-1462
+- Pandas
+
+
+
 
