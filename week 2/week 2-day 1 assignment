@@ -1,0 +1,6 @@
+Dataset: Marketing campaign dataset (customer spend, engagement, clicks)
+Tasks:
+
+Calculate average spending per customer
+Identify top 10% of spenders
+Detect skewness in customer engagement metrics
