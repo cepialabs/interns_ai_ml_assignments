@@ -1,68 +1,62 @@
-\# Week 2 – Day 2 Assignment
+##  Email marketing campaign
+ Bodasu karunanjali
+ INT2026-1462
 
 
 
-This folder contains the \*\*Day 2 assignment\*\* for Week 2 of the internship program.
+##  Objective
 
 
 
-\## 📌 Objective
+- Work with the given dataset
 
 
 
-\- Work with the given dataset
+- Perform basic data loading and exploration
 
 
 
-\- Perform basic data loading and exploration
+- Understand the structure of the data
 
 
 
-\- Understand the structure of the data
+- Apply basic analysis using Python
 
 
 
-\- Apply basic analysis using Python
+## 📂 Files Included
 
 
 
-\## 📂 Files Included
+- day-2-assignment.ipynb – Jupyter Notebook containing the Day 2 solution
 
 
 
-\- day-2-assignment.ipynb – Jupyter Notebook containing the Day 2 solution
+- README.md – Assignment description
 
 
 
-\- README.md – Assignment description
+## 🛠 Tools \& Technologies
 
 
 
-\## 🛠 Tools \& Technologies
+- Python
 
 
 
-\- Python
+- Jupyter Notebook
 
 
 
-\- Jupyter Notebook
+- Pandas
 
 
 
-\- Pandas
+- NumPy (if used)
 
 
 
-\- NumPy (if used)
 
-
-
-\## 👩‍💻 Submitted By
-
-
-
-\*\*Karunanjali Bodas\*\*
 
 
 
