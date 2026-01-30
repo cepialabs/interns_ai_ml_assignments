@@ -1,5 +1,6 @@
 ##  Email marketing campaign
  Bodasu karunanjali
+ 
  INT2026-1462
 
 
@@ -60,5 +61,5 @@
 
 
 
-Intern ID: \*\*INT2026-1462\*\*
+
 
