@@ -72,17 +72,9 @@ Since the dataset does not directly contain purchase amount, a new feature was c
 
 Purchase Amount Calculation
 
-PurchaseAmount
+PurchaseAmount= Quantity × UnitPrice
 
-=
-
-Quantity
-
-×
-
-UnitPrice
-
-PurchaseAmount=Quantity×UnitPrice
+PurchaseAmount= Quantity ×UnitPrice
 
 
 
@@ -180,21 +172,9 @@ Z-score standardization was applied to normalize the purchase amount values:
 
 
 
-𝑧
+𝑧=𝑥−𝜇𝜎
 
-=
-
-𝑥
-
-−
-
-𝜇
-
-𝜎
-
-z=
-
-σ
+z=σ
 
 x−μ
 
