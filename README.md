@@ -1,16 +1,16 @@
-📘 Day 4 Assignment — Student Performance Data Analysis
+##📘 Day 4 Assignment — Student Performance Data Analysis
 
 Intern ID: INT2026-1462
 Program: AI/ML Internship
 Week: Week 1
 Assignment: Day 4
 
-🎯 Objective
+##🎯 Objective
 
 The objective of this assignment is to analyze and understand student performance data using Python.
 This task focuses on applying basic data analysis techniques to gain insights from a real-world dataset and prepare it for further Machine Learning tasks.
 
-📂 Dataset Information
+##📂 Dataset Information
 
 Dataset Name: Student Performance Dataset
 
@@ -26,7 +26,7 @@ Study-related attributes
 
 Performance-related features
 
-🛠️ Tools & Technologies Used
+##🛠️ Tools & Technologies Used
 
 Python
 
@@ -40,7 +40,7 @@ numpy
 
 matplotlib / seaborn (if applicable)
 
-📌 Tasks Performed
+##📌 Tasks Performed
 
 Loaded the dataset using pandas
 
