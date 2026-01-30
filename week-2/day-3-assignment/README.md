@@ -1,14 +1,16 @@
-📊 Probability Distribution Analysis on Online Retail Data
+## Probability Distribution Analysis on Online Retail Data
+Bodas karunanjali
 
-📌 Introduction
+INT2026-1462
 
+ ## Introduction
 
 
 This project focuses on applying probability distribution concepts to a real-world retail dataset. The objective is to analyze customer purchase behavior using statistical methods such as Normal Distribution, Probability Density Function (PDF), Cumulative Distribution Function (CDF), and Z-Score Standardization, which are fundamental in Machine Learning and Data Science.
 
 
 
-📂 Dataset Information
+## Dataset Information
 
 
 
@@ -60,7 +62,7 @@ Country – Customer country
 
 
 
-🧮 Feature Engineering
+## Feature Engineering
 
 
 
@@ -88,7 +90,7 @@ This derived column represents the total value of each transaction and is used f
 
 
 
-🧹 Data Preprocessing
+## Data Preprocessing
 
 
 
@@ -116,9 +118,9 @@ Ensured clean and valid data for statistical analysis
 
 
 
-📈 Probability Distribution Concepts Covered
+## Probability Distribution Concepts Covered
 
-1️⃣ Common Probability Distributions
+1️ Common Probability Distributions
 
 
 
@@ -146,7 +148,7 @@ Uniform Distribution
 
 
 
-2️⃣ Probability Density Function (PDF)
+2️ Probability Density Function (PDF)
 
 
 
@@ -158,7 +160,7 @@ Represented using histograms and kernel density estimation
 
 
 
-3️⃣ Cumulative Distribution Function (CDF)
+3️ Cumulative Distribution Function (CDF)
 
 
 
@@ -170,7 +172,7 @@ Probability that a purchase amount exceeds a specified threshold
 
 
 
-4️⃣ Z-Score Standardization
+4️ Z-Score Standardization
 
 
 
@@ -206,7 +208,7 @@ This technique is widely used in machine learning algorithms to scale features.
 
 
 
-🧪 Implementation Steps
+## Implementation Steps
 
 
 
@@ -242,7 +244,7 @@ Compare actual data with simulated normal distribution
 
 
 
-📊 Tools and Libraries Used
+## Tools and Libraries Used
 
 
 
@@ -270,7 +272,7 @@ SciPy
 
 
 
-🧠 Importance in Machine Learning
+## Importance in Machine Learning
 
 
 
@@ -298,7 +300,7 @@ Detecting outliers
 
 
 
-✅ Conclusion
+## Conclusion
 
 
 
