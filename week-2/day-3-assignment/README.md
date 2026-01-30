@@ -112,7 +112,7 @@ Ensured clean and valid data for statistical analysis
 
 ## Probability Distribution Concepts Covered
 
-1️  Common Probability Distributions
+1️ ) Common Probability Distributions
 
 
 
@@ -140,7 +140,7 @@ Uniform Distribution
 
 
 
-2️  Probability Density Function (PDF)
+2️ ) Probability Density Function (PDF)
 
 
 
@@ -152,7 +152,7 @@ Represented using histograms and kernel density estimation
 
 
 
-3️  Cumulative Distribution Function (CDF)
+3️)  Cumulative Distribution Function (CDF)
 
 
 
@@ -164,7 +164,7 @@ Probability that a purchase amount exceeds a specified threshold
 
 
 
-4️  Z-Score Standardization
+4️ ) Z-Score Standardization
 
 
 
