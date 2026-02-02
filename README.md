@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 # 📘 Internship Assignment Submission Guidelines
 
 All interns must **strictly follow** the branching and folder structure below when submitting assignments.  
