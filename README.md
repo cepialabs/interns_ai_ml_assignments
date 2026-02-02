@@ -1,63 +1,52 @@
-## Day 4 Assignment — Student Performance Data Analysis
+\# Week 2 Day 4 Assignment – Marketing \& Sales Analysis
 
-Intern ID: INT2026-1462
-Program: AI/ML Internship
-Week: Week 1
-Assignment: Day 4
 
-## Objective
 
-The objective of this assignment is to analyze and understand student performance data using Python.
-This task focuses on applying basic data analysis techniques to gain insights from a real-world dataset and prepare it for further Machine Learning tasks.
+\## Objective  
 
-## Dataset Information
+To understand the importance of feature selection in Machine Learning using a Marketing \& Sales dataset.
 
-Dataset Name: Student Performance Dataset
 
-File Name: student_performance_dataset.xlsx
 
-Format: Excel (.xlsx)
+\## Files in this folder  
 
-Dataset Contains:
 
-Student academic details
 
-Study-related attributes
+\- advertising.csv — Marketing dataset  
 
-Performance-related features
+\- data.csv — Additional reference dataset  
 
-## Tools & Technologies Used
+\- day-4-assignment.ipynb — Jupyter Notebook analysis  
 
-Python
 
-Jupyter Notebook
 
-Libraries Used:
+\## What I did  
 
-pandas
 
-numpy
 
-matplotlib / seaborn (if applicable)
+\- Loaded the dataset  
 
-## Tasks Performed
+\- Cleaned missing values  
 
-Loaded the dataset using pandas
+\- Performed correlation analysis  
 
-Displayed dataset structure and basic information
+\- Visualized relationships  
 
-Checked:
+\- Discussed correlation vs causation  
 
-Shape of the dataset
 
-Column names
 
-Data types
+\## Key Finding  
 
-Identified:
 
-Missing values
 
-Basic statistics of numerical columns
+TV advertising has the strongest correlation with Sales.
 
-Performed initial data exploration for better understanding
+
+
+\## Author  
+
+INT2026-1462
+
+
+
