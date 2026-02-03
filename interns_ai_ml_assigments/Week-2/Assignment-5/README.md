@@ -65,3 +65,22 @@ The notebook:
 - **Jupyter Notebook (.ipynb)**
 
 ---
+
+---
+
+## 📌 Key Findings
+- A t-test compares average retention between discount and non-discount groups.
+- With insufficient data, statistical significance cannot be evaluated.
+- No conclusion can be drawn without additional observations.
+
+---
+
+## 📜 Conclusion
+This project demonstrates the correct application of hypothesis testing in customer analytics while highlighting the importance of adequate sample size. A larger dataset is required to validate whether discounts significantly improve customer retention.
+
+---
+
+## 👨‍🎓 Author
+**Shaik Ansar**
+
+---
