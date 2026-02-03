@@ -1,0 +1,201 @@
+customer_id,tenure_months,monthly_charges,contract_type,customer_support_calls,payment_method,satisfaction_score,churn
+CUST1000,39,30.55,Two Year,3,Debit Card,4,No
+CUST1001,52,65.65,Month-to-Month,3,Debit Card,2,No
+CUST1002,29,41.84,Month-to-Month,5,Debit Card,3,No
+CUST1003,15,61.65,Month-to-Month,3,Debit Card,1,No
+CUST1004,43,108.33,One Year,6,Debit Card,5,No
+CUST1005,8,52.43,One Year,2,UPI,2,No
+CUST1006,21,32.21,Month-to-Month,4,UPI,4,No
+CUST1007,39,55.63,Two Year,3,Debit Card,2,No
+CUST1008,58,110.68,One Year,5,Net Banking,1,No
+CUST1009,19,47.21,One Year,6,Credit Card,4,No
+CUST1010,23,84.77,One Year,2,Debit Card,3,No
+CUST1011,11,20.05,Month-to-Month,1,Net Banking,2,No
+CUST1012,11,55.26,Month-to-Month,1,Credit Card,1,No
+CUST1013,24,50.48,Month-to-Month,2,Debit Card,5,No
+CUST1014,53,36.47,Month-to-Month,6,Debit Card,4,No
+CUST1015,36,73.41,Month-to-Month,5,UPI,2,No
+CUST1016,40,68.48,Two Year,2,Credit Card,2,No
+CUST1017,24,89.24,Two Year,4,Credit Card,3,No
+CUST1018,3,46.94,Month-to-Month,4,Net Banking,3,No
+CUST1019,22,44.41,One Year,1,UPI,5,No
+CUST1020,53,36.83,Month-to-Month,3,UPI,5,No
+CUST1021,2,41.88,Two Year,5,UPI,1,No
+CUST1022,24,75.81,Two Year,1,UPI,1,No
+CUST1023,44,60.38,One Year,3,Credit Card,5,No
+CUST1024,30,26.49,Two Year,3,Credit Card,5,No
+CUST1025,38,45.39,Month-to-Month,7,Debit Card,4,No
+CUST1026,2,44.69,One Year,4,Debit Card,3,No
+CUST1027,21,89.63,Month-to-Month,6,UPI,1,No
+CUST1028,33,91.23,Month-to-Month,0,UPI,3,No
+CUST1029,12,34.81,One Year,6,UPI,3,No
+CUST1030,58,119.77,Month-to-Month,0,Debit Card,5,No
+CUST1031,22,46.68,Two Year,2,Net Banking,4,No
+CUST1032,44,117.66,Month-to-Month,4,Net Banking,2,No
+CUST1033,25,61.1,One Year,3,Debit Card,4,No
+CUST1034,49,23.31,One Year,5,Debit Card,4,No
+CUST1035,27,54.51,One Year,0,Debit Card,3,No
+CUST1036,59,83.44,Month-to-Month,6,Debit Card,4,No
+CUST1037,42,88.07,One Year,3,Debit Card,1,No
+CUST1038,28,73.09,One Year,0,Debit Card,3,No
+CUST1039,16,64.78,Month-to-Month,0,UPI,1,No
+CUST1040,15,75.29,Two Year,7,UPI,2,No
+CUST1041,47,79.27,Month-to-Month,0,UPI,3,No
+CUST1042,51,28.09,One Year,5,UPI,2,No
+CUST1043,44,56.97,One Year,4,Debit Card,3,No
+CUST1044,55,44.22,Month-to-Month,5,Net Banking,5,No
+CUST1045,52,100.31,Two Year,1,Credit Card,4,No
+CUST1046,57,67.03,One Year,3,Debit Card,5,No
+CUST1047,3,118.34,One Year,4,Credit Card,2,Yes
+CUST1048,37,59.88,One Year,7,Net Banking,4,No
+CUST1049,51,101.64,Month-to-Month,4,UPI,3,No
+CUST1050,7,99.83,One Year,4,Net Banking,4,Yes
+CUST1051,21,35.07,Two Year,6,Debit Card,1,No
+CUST1052,9,70.82,One Year,4,UPI,4,No
+CUST1053,39,89.58,One Year,7,Debit Card,1,No
+CUST1054,18,105.84,Two Year,5,UPI,4,No
+CUST1055,4,52.6,One Year,4,Credit Card,1,No
+CUST1056,25,42.02,Month-to-Month,2,Credit Card,2,No
+CUST1057,14,91.11,Month-to-Month,3,Credit Card,5,No
+CUST1058,50,100.95,Month-to-Month,4,Net Banking,3,No
+CUST1059,58,54.87,Two Year,3,Debit Card,4,No
+CUST1060,9,29.62,One Year,2,Net Banking,5,No
+CUST1061,26,114.05,Month-to-Month,2,Credit Card,3,No
+CUST1062,53,59.76,Two Year,3,Debit Card,3,No
+CUST1063,2,71.78,One Year,0,Credit Card,1,No
+CUST1064,20,103.77,Two Year,1,Net Banking,2,No
+CUST1065,28,87.57,Month-to-Month,6,Net Banking,2,No
+CUST1066,47,93.52,Month-to-Month,0,Net Banking,5,No
+CUST1067,7,40.91,Month-to-Month,0,Credit Card,2,No
+CUST1068,44,74.14,Two Year,5,Debit Card,4,No
+CUST1069,8,89.58,Two Year,6,Debit Card,2,Yes
+CUST1070,47,42.86,Month-to-Month,6,Credit Card,5,No
+CUST1071,35,37.5,Two Year,0,Debit Card,2,No
+CUST1072,14,118.22,Month-to-Month,4,Credit Card,4,No
+CUST1073,17,71.66,Month-to-Month,5,Debit Card,1,No
+CUST1074,36,46.08,One Year,5,UPI,5,No
+CUST1075,50,119.63,Two Year,2,UPI,1,No
+CUST1076,40,116.54,Month-to-Month,7,Net Banking,1,No
+CUST1077,4,75.83,Month-to-Month,6,UPI,1,No
+CUST1078,2,108.26,Two Year,0,UPI,3,No
+CUST1079,6,38.87,One Year,2,UPI,3,No
+CUST1080,54,47.89,One Year,3,Credit Card,1,No
+CUST1081,42,90.04,Month-to-Month,1,UPI,5,No
+CUST1082,4,104.67,Two Year,7,UPI,4,Yes
+CUST1083,54,105.63,One Year,7,Net Banking,4,No
+CUST1084,29,60.45,Two Year,7,UPI,2,No
+CUST1085,18,108.78,Two Year,5,UPI,5,No
+CUST1086,26,105.09,Month-to-Month,3,Debit Card,3,No
+CUST1087,44,113.56,One Year,7,Net Banking,1,No
+CUST1088,34,98.53,Month-to-Month,3,Net Banking,2,No
+CUST1089,10,86.9,One Year,4,Net Banking,4,Yes
+CUST1090,36,78.07,One Year,7,Net Banking,3,No
+CUST1091,14,57.23,One Year,1,Net Banking,3,No
+CUST1092,31,114.01,One Year,3,Net Banking,1,No
+CUST1093,48,117.37,One Year,3,Credit Card,4,No
+CUST1094,15,48.39,Two Year,1,UPI,5,No
+CUST1095,8,50.54,Month-to-Month,7,Net Banking,3,No
+CUST1096,14,68.56,Two Year,1,UPI,1,No
+CUST1097,23,64.84,One Year,3,UPI,5,No
+CUST1098,57,119.45,Month-to-Month,1,Credit Card,4,No
+CUST1099,40,37.59,One Year,3,Net Banking,3,No
+CUST1100,21,21.81,Month-to-Month,3,Debit Card,5,No
+CUST1101,16,69.39,Two Year,4,Credit Card,5,No
+CUST1102,45,37.88,Month-to-Month,0,Debit Card,5,No
+CUST1103,18,56.65,Month-to-Month,3,UPI,3,No
+CUST1104,47,94.42,Month-to-Month,7,UPI,3,No
+CUST1105,53,92.09,Month-to-Month,2,Credit Card,2,No
+CUST1106,24,50.81,Month-to-Month,5,Credit Card,4,No
+CUST1107,26,74.25,One Year,6,Debit Card,1,No
+CUST1108,25,70.88,Month-to-Month,0,Net Banking,5,No
+CUST1109,45,83.63,Month-to-Month,0,Debit Card,2,No
+CUST1110,41,45.05,Two Year,0,Credit Card,1,No
+CUST1111,29,78.99,Month-to-Month,4,Debit Card,2,No
+CUST1112,15,117.89,Two Year,3,Credit Card,3,No
+CUST1113,45,68.67,One Year,4,Debit Card,5,No
+CUST1114,1,110.61,Month-to-Month,3,Credit Card,1,No
+CUST1115,25,63.44,Two Year,7,Credit Card,1,No
+CUST1116,7,55.01,Two Year,4,Credit Card,1,No
+CUST1117,9,84.51,One Year,4,Net Banking,1,Yes
+CUST1118,24,86.89,Month-to-Month,5,Debit Card,1,No
+CUST1119,1,106.42,Month-to-Month,2,Debit Card,2,No
+CUST1120,44,43.02,Two Year,4,Debit Card,5,No
+CUST1121,8,69.92,Month-to-Month,5,Credit Card,3,No
+CUST1122,24,77.2,Two Year,1,Debit Card,3,No
+CUST1123,11,96.86,Month-to-Month,2,Debit Card,3,No
+CUST1124,51,24.36,Two Year,7,Credit Card,3,No
+CUST1125,17,119.46,Month-to-Month,4,UPI,2,No
+CUST1126,8,66.99,One Year,6,Credit Card,4,No
+CUST1127,35,47.96,Month-to-Month,0,Debit Card,5,No
+CUST1128,35,108.35,Month-to-Month,1,Credit Card,1,No
+CUST1129,33,94.77,One Year,1,UPI,4,No
+CUST1130,59,115.31,Month-to-Month,7,Credit Card,3,No
+CUST1131,5,53.08,One Year,5,Debit Card,4,No
+CUST1132,42,75.28,Month-to-Month,1,UPI,5,No
+CUST1133,39,77.23,Two Year,2,Net Banking,1,No
+CUST1134,58,118.03,Two Year,4,Debit Card,1,No
+CUST1135,41,27.53,Month-to-Month,4,UPI,5,No
+CUST1136,28,50.57,Month-to-Month,6,UPI,5,No
+CUST1137,7,39.09,Month-to-Month,7,Net Banking,3,No
+CUST1138,9,46.85,Two Year,0,Credit Card,1,No
+CUST1139,8,68.53,Month-to-Month,5,Credit Card,4,No
+CUST1140,12,57.27,Two Year,0,Debit Card,2,No
+CUST1141,34,59.47,One Year,1,Net Banking,2,No
+CUST1142,33,104.42,Two Year,7,Credit Card,5,No
+CUST1143,48,113.0,Two Year,6,Net Banking,3,No
+CUST1144,55,27.04,One Year,0,Credit Card,2,No
+CUST1145,23,40.89,Two Year,2,UPI,1,No
+CUST1146,24,87.11,Month-to-Month,4,Credit Card,5,No
+CUST1147,37,55.86,Month-to-Month,1,Net Banking,4,No
+CUST1148,35,45.42,Two Year,6,UPI,5,No
+CUST1149,44,49.53,Month-to-Month,0,UPI,4,No
+CUST1150,40,52.26,Two Year,5,UPI,5,No
+CUST1151,22,104.87,Month-to-Month,2,Net Banking,5,No
+CUST1152,27,33.66,Month-to-Month,2,Debit Card,5,No
+CUST1153,35,90.89,Two Year,0,Debit Card,4,No
+CUST1154,1,75.28,Month-to-Month,4,Debit Card,4,No
+CUST1155,35,49.65,Two Year,0,Net Banking,5,No
+CUST1156,37,61.98,Month-to-Month,1,UPI,2,No
+CUST1157,47,45.62,Month-to-Month,0,Debit Card,3,No
+CUST1158,14,81.15,One Year,2,Net Banking,3,No
+CUST1159,3,28.16,One Year,6,Debit Card,3,No
+CUST1160,1,20.52,Two Year,0,Credit Card,4,No
+CUST1161,5,82.79,One Year,4,Debit Card,4,Yes
+CUST1162,26,39.43,Two Year,7,Debit Card,2,No
+CUST1163,55,27.09,One Year,6,UPI,3,No
+CUST1164,14,59.68,Month-to-Month,5,Net Banking,3,No
+CUST1165,39,25.08,Two Year,3,UPI,5,No
+CUST1166,27,108.66,Two Year,0,UPI,4,No
+CUST1167,9,22.76,Month-to-Month,4,UPI,3,No
+CUST1168,15,77.89,Two Year,6,UPI,2,No
+CUST1169,15,63.85,Two Year,4,UPI,2,No
+CUST1170,26,87.2,One Year,5,Debit Card,3,No
+CUST1171,42,52.82,Two Year,2,UPI,4,No
+CUST1172,13,35.5,Month-to-Month,4,UPI,2,No
+CUST1173,51,118.18,One Year,6,Net Banking,5,No
+CUST1174,32,103.89,One Year,4,Credit Card,2,No
+CUST1175,39,106.04,Month-to-Month,4,Debit Card,1,No
+CUST1176,49,45.03,Month-to-Month,4,Debit Card,1,No
+CUST1177,52,23.88,One Year,1,Debit Card,4,No
+CUST1178,32,50.33,Two Year,1,UPI,3,No
+CUST1179,4,73.71,One Year,2,UPI,4,No
+CUST1180,30,52.67,Month-to-Month,0,UPI,4,No
+CUST1181,37,102.79,One Year,4,Net Banking,4,No
+CUST1182,23,47.15,Month-to-Month,5,Credit Card,4,No
+CUST1183,39,116.53,One Year,0,UPI,5,No
+CUST1184,45,65.73,Two Year,5,Credit Card,5,No
+CUST1185,15,104.2,One Year,0,Net Banking,2,No
+CUST1186,43,39.44,One Year,2,Debit Card,1,No
+CUST1187,29,61.14,Month-to-Month,4,UPI,4,No
+CUST1188,36,89.95,Month-to-Month,4,Credit Card,2,No
+CUST1189,13,33.84,Month-to-Month,3,Credit Card,1,No
+CUST1190,32,33.27,One Year,5,UPI,3,No
+CUST1191,7,116.95,Two Year,0,Debit Card,5,No
+CUST1192,59,91.46,Month-to-Month,0,Debit Card,1,No
+CUST1193,51,24.11,Month-to-Month,7,Debit Card,3,No
+CUST1194,22,59.88,One Year,7,Net Banking,1,No
+CUST1195,28,63.35,Month-to-Month,1,Credit Card,5,No
+CUST1196,2,94.4,Two Year,3,Credit Card,5,No
+CUST1197,42,45.09,Two Year,6,Credit Card,2,No
+CUST1198,45,38.43,Month-to-Month,7,Net Banking,4,No
+CUST1199,57,28.09,Month-to-Month,6,Credit Card,1,No
