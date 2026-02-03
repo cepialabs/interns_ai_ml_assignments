@@ -103,15 +103,6 @@ This suggests that customer return behavior is associated with measurable differ
 
 ---
 
-## ▶️ How to Run the Project
-
-1. Download the dataset from Kaggle
-2. Place the CSV file in the project directory
-3. Run the Python script or Jupyter Notebook
-4. Review the t-test output and interpretation
-
----
-
 ## 📌 Conclusion
 
 This project demonstrates how **statistical hypothesis testing** can be applied to real-world customer data to gain actionable insights into **customer retention behavior**.
