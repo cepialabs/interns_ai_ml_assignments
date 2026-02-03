@@ -17,7 +17,9 @@ The goal is to understand whether customer return behavior is associated with me
 ## 📂 Dataset Description
 
 **Dataset Name:** PwC Customer Retention Dashboard
+
 **Data Source:** Kaggle
+
 **DataSource Link:** [https://www.kaggle.com/datasets/rithikmurali/pwc-customer-retention-dashboard]
 
 The dataset represents customer data from a telecom-like business and includes:
