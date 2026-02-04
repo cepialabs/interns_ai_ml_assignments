@@ -6,9 +6,9 @@
 
 This project analyzes customer retention behavior to test the hypothesis:
 
-> **Customers who received a discount are more likely to return.**
+Customers who received a discount are more likely to return.
 
-Since the dataset does not contain a direct discount column, **promotional emails sent (`esent`)** are used as a proxy for discount exposure.
+Since the dataset does not contain a direct discount column, promotional emails sent are used as a proxy for discount exposure.
 
 ---
 
