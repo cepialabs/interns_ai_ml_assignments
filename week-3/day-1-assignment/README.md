@@ -4,10 +4,15 @@ Date: Monday Feb 4, 2026
 
 ## Datasets
 1. **Housing dataset** (Kaggle: *House Prices: Advanced Regression Techniques*)
-   - https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
+   -https://www.kaggle.com/datasets/yasserh/housing-prices-dataset
 2. **Customer segmentation dataset** (Kaggle: *Mall Customer Segmentation Data*)
-   - https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python
 
+## Datasets 
+--kaggle
+
+vjchoudhary7/customer-segmentation-tutorial-in-python
+
+   - e
 ## Tasks
 - Predict house prices → supervised regression.
 - Cluster customers based on purchase behavior → unsupervised clustering.
