@@ -74,4 +74,6 @@ This helps understand the impact of promotional strategies on customer retention
 
 ## ✍️ Author
 
-**Krushna Chandra Bindhani**
+Krushna Chandra Bindhani
+
+---
