@@ -97,4 +97,3 @@ This helps businesses in targeted marketing and customer retention.
 
 ---
 
-## 📁 Files in this project
