@@ -1,94 +1,80 @@
-# Week 3 -- Day 2 Assignment: Email Spam Classification using Logistic Regression
+# Week 3 Assignments --- Combined README
 
 **Intern Name:** Bodas Karunanjali\
 **Intern ID:** INT2026-1462\
-**Organization:** Cepialabs\
 **Date:** 05-Feb-2026
 
-------------------------------------------------------------------------
+## 📌 Assignment 1 --- Housing Price Prediction (Linear Regression)
 
-## Project Overview
+### Objective
 
-This assignment implements **Logistic Regression for Email Spam
-Classification**.\
-The objective is to build a machine learning model that classifies
-emails as either **Spam (1)** or **Not Spam / Ham (0)** based on their
-text content.
+Predict house prices based on property features using Linear Regression.
 
-Through this assignment, we learn:
+### Dataset
 
--   How to handle real-world text data\
--   How to convert text into numerical features\
--   How Logistic Regression works for classification\
--   How to evaluate a machine learning model
+Housing dataset (`housing.csv`) with key columns: - **price** --- target
+variable\
+- **area** --- house size\
+- **bedrooms, bathrooms, stories, parking**, etc.
 
-------------------------------------------------------------------------
+### Methodology
 
-## Dataset
+1.  Performed data exploration (`info()`, `describe()`)\
+2.  Selected features: `area`, `bedrooms`\
+3.  Split data into train and test sets\
+4.  Trained **Linear Regression** model\
+5.  Evaluated using **R² Score** and **RMSE**\
+6.  Plotted Actual vs Predicted prices
 
-We used the **Spam SMS Dataset (spam.csv)** from Kaggle.
+### Results
 
-The dataset contains two main columns:
+-   Showed strong relationship between area and price\
+-   Demonstrated usefulness of Linear Regression for prediction task
 
--   **v1** → Label (`ham` or `spam`)\
--   **v2** → Email / SMS message text
+-   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------
 
-## Tasks Completed
+## 📌 Assignment 1 --- Email Spam Classification (Logistic Regression)
 
-### Task 1 -- Data Loading and Exploration
+### Objective
 
--   Loaded the dataset using Pandas\
--   Handled encoding issue using `latin-1`\
--   Checked dataset structure and column names\
--   Renamed columns for better understanding
+Build a machine learning model that classifies emails as **Spam (1)** or
+**Not Spam / Ham (0)** using Logistic Regression.
 
-### Task 2 -- Text Preprocessing
+### Dataset
 
--   Converted text messages into numerical format using **TF-IDF
-    Vectorization**\
--   Removed common English stopwords\
--   Created feature matrix `X` from text\
--   Converted labels into binary values (`ham = 0`, `spam = 1`)
+Spam SMS dataset (`spam.csv`) with columns: - **v1** --- label (`ham` /
+`spam`)\
+- **v2** --- message text
 
-### Task 3 -- Model Training
+### Methodology
 
--   Split data into training and testing sets\
--   Trained a **Logistic Regression** model\
--   Used training data to teach the model patterns in spam messages
+1.  Loaded dataset with `encoding='latin-1'`\
+2.  Renamed columns for clarity\
+3.  Converted text to numerical features using **TF-IDF Vectorizer**\
+4.  Split data into train and test sets\
+5.  Trained **Logistic Regression** model\
+6.  Evaluated using Accuracy and Classification Report
 
-### Task 4 -- Model Evaluation
+### Results
 
--   Evaluated model using Accuracy Score\
--   Generated Classification Report\
--   Observed good precision and recall for both spam and non-spam emails
+-   Model achieved **\~97% accuracy**\
+-   Reliable detection of spam messages
 
-------------------------------------------------------------------------
-
-## Results
-
-The model achieved high accuracy (around 97%), showing that Logistic
-Regression combined with TF-IDF is effective for spam detection.
-
-The model can correctly identify most spam messages while minimizing
-false predictions.
-
-------------------------------------------------------------------------
-
-## Files in This Folder
+### Files
 
     week-3/day-2-assignment/
     ├── spam.csv
     ├── assignment-2.ipynb
     └── README.md
+    ├── housing.csv
+    
+## ✅ Overall Conclusion
 
-------------------------------------------------------------------------
+These two assignments demonstrate practical use of:
 
-## Conclusion
+-   **Logistic Regression** for classification (Spam detection)\
+-   **Linear Regression** for prediction (Housing prices)
 
-This assignment successfully demonstrated how Logistic Regression can be
-applied to text classification problems.
-
-The techniques used here form the foundation for real-world spam filters
-used in email systems like Gmail and Outlook.
+Together, they build a strong foundation in supervised machine learning
+and real-world data analysis.
