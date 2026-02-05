@@ -13,22 +13,22 @@ Predict house prices based on property features using Linear Regression.
 ### Dataset
 
 Housing dataset (`housing.csv`) with key columns: - **price** --- target
-variable\
-- **area** --- house size\
+variable
+- **area** --- house size
 - **bedrooms, bathrooms, stories, parking**, etc.
 
 ### Methodology
 
-1.  Performed data exploration (`info()`, `describe()`)\
-2.  Selected features: `area`, `bedrooms`\
-3.  Split data into train and test sets\
-4.  Trained **Linear Regression** model\
-5.  Evaluated using **R² Score** and **RMSE**\
+1.  Performed data exploration (`info()`, `describe()`)
+2.  Selected features: `area`, `bedrooms`
+3.  Split data into train and test sets
+4.  Trained **Linear Regression** model
+5.  Evaluated using **R² Score** and **RMSE**
 6.  Plotted Actual vs Predicted prices
 
 ### Results
 
--   Showed strong relationship between area and price\
+-   Showed strong relationship between area and price
 -   Demonstrated usefulness of Linear Regression for prediction task
 
 -   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -44,21 +44,21 @@ Build a machine learning model that classifies emails as **Spam (1)** or
 ### Dataset
 
 Spam SMS dataset (`spam.csv`) with columns: - **v1** --- label (`ham` /
-`spam`)\
+`spam`)
 - **v2** --- message text
 
 ### Methodology
 
-1.  Loaded dataset with `encoding='latin-1'`\
-2.  Renamed columns for clarity\
-3.  Converted text to numerical features using **TF-IDF Vectorizer**\
-4.  Split data into train and test sets\
-5.  Trained **Logistic Regression** model\
+1.  Loaded dataset with `encoding='latin-1'`
+2.  Renamed columns for clarity
+3.  Converted text to numerical features using **TF-IDF Vectorizer**
+4.  Split data into train and test sets
+5.  Trained **Logistic Regression** model
 6.  Evaluated using Accuracy and Classification Report
 
 ### Results
 
--   Model achieved **\~97% accuracy**\
+-   Model achieved **\~97% accuracy**
 -   Reliable detection of spam messages
 
 ### Files
