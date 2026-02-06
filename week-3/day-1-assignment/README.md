@@ -1,6 +1,6 @@
 # Week 3 Day 1 Assignment
 
-Date: Monday Feb 4, 2026
+Date: Webnesday Feb 4, 2026
 
 ## Datasets
 1. **Housing dataset** (Kaggle: *House Prices: Advanced Regression Techniques*)

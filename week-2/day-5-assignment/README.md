@@ -1,6 +1,6 @@
 # Week 2 Day 5 Assignment
 
-Date: Monday Feb 3, 2026
+Date: Tuesday Feb 3, 2026
 
 Dataset: `storedata_total1.csv` (customer retention dataset).
 

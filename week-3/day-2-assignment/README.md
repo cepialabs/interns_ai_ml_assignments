@@ -1,6 +1,6 @@
 # Week 3 Day 2 Assignment
 
-Date: Monday Feb 5, 2026
+Date: Thrusday Feb 5, 2026
 
 ## Datasets
 1. **Housing dataset** (Kaggle: *Housing*)

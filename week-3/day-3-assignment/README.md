@@ -1,6 +1,6 @@
 # Week 3 Day 3 Assignment
 
-Date: Monday Feb 2, 2026
+Date: Friday Feb 6, 2026
 
 ## Dataset
 **Spam email/SMS dataset** (use local `spam.csv`).
