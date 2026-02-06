@@ -1,0 +1,9 @@
+email_text,money_word_count,has_offer,has_link,is_spam
+Win money now,3,1,0,1
+Limited offer buy now,2,1,1,1
+Meeting schedule update,0,0,0,0
+Project deadline reminder,0,0,0,0
+Free lottery winner,3,1,0,1
+Invoice attached,0,0,0,0
+Cheap meds available,2,1,0,1
+Team lunch tomorrow,0,0,0,0
