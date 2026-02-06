@@ -1,0 +1,16 @@
+student_id,gender,attendance,math_score,reading_score,writing_score,score
+1,Male,85,78,74,80,77
+2,Female,92,88,90,91,90
+3,Male,76,65,70,68,68
+4,Female,88,82,85,87,85
+5,Male,60,55,58,54,56
+6,Female,95,92,94,96,94
+7,Male,70,68,65,67,67
+8,Female,82,80,78,79,79
+9,Male,90,85,88,86,86
+10,Female,75,72,74,73,73
+11,Male,88,84,82,83,83
+12,Female,91,89,90,92,90
+13,Male,66,60,62,61,61
+14,Female,84,81,83,85,83
+15,Male,78,75,77,76,76

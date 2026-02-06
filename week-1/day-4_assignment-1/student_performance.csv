@@ -1,0 +1,61 @@
+student_id,name,gender,state,attendance_percent,study_hours_per_day,sleep_hours,assignment_score,final_score
+1,Aarav Sharma,Male,Maharashtra,92.5,3.2,7.4,84.0,86.5
+2,Ananya Patil,Female,Maharashtra,88.0,2.8,7.0,79.5,82.2
+3,Rohan Deshmukh,Male,Maharashtra,75.0,2.0,6.5,68.0,71.8
+4,Sneha Kulkarni,Female,Maharashtra,96.0,3.6,7.8,90.0,92.4
+5,Omkar Jadhav,Male,Maharashtra,81.5,2.4,6.8,74.0,77.3
+6,Priya Joshi,Female,Gujarat,90.0,3.1,7.2,83.0,85.1
+7,Harsh Mehta,Male,Gujarat,78.0,1.9,6.2,66.0,70.4
+8,Kavya Shah,Female,Gujarat,94.0,3.4,7.6,88.0,91.0
+9,Vedant Patel,Male,Gujarat,85.0,2.6,6.9,76.5,80.2
+10,Ishita Desai,Female,Gujarat,89.5,2.9,7.1,81.0,83.6
+11,Arjun Singh,Male,Uttar Pradesh,72.0,1.8,6.0,64.0,67.9
+12,Muskan Verma,Female,Uttar Pradesh,86.5,2.7,6.8,77.0,81.0
+13,Aditya Yadav,Male,Uttar Pradesh,80.0,2.2,6.6,70.0,74.5
+14,Neha Gupta,Female,Uttar Pradesh,93.0,3.3,7.5,86.0,89.2
+15,Kunal Mishra,Male,Uttar Pradesh,76.5,2.1,6.3,67.5,72.0
+16,Riya Sharma,Female,Delhi,91.0,3.0,7.2,84.5,86.9
+17,Dev Kapoor,Male,Delhi,83.0,2.5,6.7,75.0,79.4
+18,Simran Kaur,Female,Delhi,95.5,3.7,7.9,91.0,93.1
+19,Aryan Khanna,Male,Delhi,79.0,2.0,6.4,69.0,73.0
+20,Meera Bansal,Female,Delhi,88.5,2.8,7.0,80.0,82.9
+21,Pranav Iyer,Male,Tamil Nadu,87.0,2.7,7.1,78.0,83.0
+22,Nithya Raman,Female,Tamil Nadu,93.5,3.5,7.7,89.0,91.8
+23,Sai Krishnan,Male,Tamil Nadu,74.0,1.9,6.2,65.0,69.8
+24,Divya Menon,Female,Tamil Nadu,90.0,3.1,7.3,83.0,86.0
+25,Vikram Raj,Male,Tamil Nadu,81.0,2.3,6.6,72.0,76.3
+26,Ankit Roy,Male,West Bengal,77.0,2.0,6.3,67.0,71.5
+27,Shreya Sen,Female,West Bengal,92.0,3.2,7.5,86.0,89.5
+28,Sourav Das,Male,West Bengal,84.0,2.5,6.8,75.0,79.8
+29,Poulomi Bose,Female,West Bengal,88.0,2.9,7.1,80.5,84.0
+30,Ritwik Ghosh,Male,West Bengal,70.5,1.6,5.9,61.0,65.2
+31,Manav Bhatia,Male,Punjab,85.0,2.6,6.9,76.0,80.6
+32,Jasleen Kaur,Female,Punjab,94.0,3.4,7.6,88.5,92.0
+33,Gurpreet Singh,Male,Punjab,73.0,1.7,6.1,63.0,67.0
+34,Navneet Kaur,Female,Punjab,89.0,2.8,7.0,81.0,84.2
+35,Simar Gill,Male,Punjab,79.5,2.1,6.4,69.0,73.9
+36,Rahul Reddy,Male,Telangana,82.0,2.4,6.7,73.0,77.5
+37,Saanvi Reddy,Female,Telangana,96.0,3.6,7.9,92.0,94.0
+38,Karthik Rao,Male,Telangana,75.5,2.0,6.2,66.0,70.7
+39,Keerthana Rao,Female,Telangana,90.5,3.0,7.3,84.0,87.2
+40,Tejas Kumar,Male,Telangana,88.0,2.9,7.0,80.0,84.0
+41,Nikhil Nair,Male,Kerala,91.5,3.2,7.4,86.0,89.0
+42,Anu Nair,Female,Kerala,95.0,3.6,7.8,90.0,93.0
+43,Abhinav Pillai,Male,Kerala,76.0,2.0,6.3,66.0,71.0
+44,Lakshmi Menon,Female,Kerala,87.5,2.8,7.1,79.0,83.5
+45,Joel Thomas,Male,Kerala,80.0,2.2,6.6,70.0,75.0
+46,Aakash Jain,Male,Rajasthan,83.5,2.5,6.8,74.0,79.0
+47,Khushi Jain,Female,Rajasthan,92.5,3.3,7.6,87.0,90.5
+48,Divyansh Singh,Male,Rajasthan,71.0,1.7,6.0,62.0,66.0
+49,Payal Choudhary,Female,Rajasthan,88.0,2.9,7.2,81.0,84.8
+50,Mohit Saini,Male,Rajasthan,78.0,2.1,6.4,68.0,73.2
+51,Ayush Pandey,Male,Madhya Pradesh,86.0,2.7,6.9,78.0,82.5
+52,Aditi Pandey,Female,Madhya Pradesh,94.0,3.5,7.7,90.0,92.6
+53,Rishi Tiwari,Male,Madhya Pradesh,74.5,1.9,6.2,65.0,69.9
+54,Pooja Shukla,Female,Madhya Pradesh,89.0,3.0,7.3,83.0,86.5
+55,Sachin Dubey,Male,Madhya Pradesh,80.0,2.2,6.6,71.0,75.8
+56,Sameer Khan,Male,Karnataka,90.0,3.1,7.2,85.0,88.0
+57,Ayesha Khan,Female,Karnataka,93.0,3.4,7.6,88.0,91.2
+58,Prithvi Shetty,Male,Karnataka,77.5,2.0,6.3,67.0,72.1
+59,Harini Shetty,Female,Karnataka,85.0,2.6,6.9,77.0,81.0
+60,Raghav Gowda,Male,Karnataka,82.0,2.4,6.7,73.0,77.8
