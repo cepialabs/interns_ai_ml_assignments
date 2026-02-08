@@ -129,7 +129,7 @@ git clone https://github.com/cepialabs/interns_ai_ml_assignments.git
 2. Navigate to the assignment folder:
 
 ```bash
-cd interns_ai_ml_assignments/week-1/day-5-assignment-1
+cd interns_ai_ml_assignments/week-2/day-1-assignment-1
 ```
 
 3. Open the Jupyter Notebook:
