@@ -82,7 +82,7 @@ It demonstrates how creating new features and encoding categorical variables can
 ---
 
 ## 👤 Author
-**KARTHIKA RAVELLI**
+**SANJAY BRAMMADANDI**
 
 ---
 
