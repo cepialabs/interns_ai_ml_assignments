@@ -1,60 +1,122 @@
 
+# 🏡 House Price Prediction – Feature Engineering & Feature Importance
+
+## 📌 Project Overview
+
+This project performs **feature engineering** and **feature importance analysis** on a house prices dataset.
+
+The main objective is to improve data quality by creating meaningful new features such as:
+
+* **House Age** (derived from Year Built)
+* **Price per Square Foot**
+* Encoding categorical features like **city**, **state**, and **property type**
+
+After feature engineering, machine learning models are trained to analyze which features influence house prices the most.
+
 ---
 
-# 📧 Spam Email Classification (KNN + Decision Tree)
+## 📂 Dataset Used
 
-This project builds a **Spam Email (SMS) Classifier** using Machine Learning.
-It classifies messages as:
+Dataset file: `house_data.csv`
 
-* **HAM (Not Spam)** ✅
-* **SPAM** 🚨
+### Important Columns
 
-Two ML models are trained and compared:
-
-* **K-Nearest Neighbors (KNN)**
-* **Decision Tree Classifier**
-
----
-
-## 📌 Dataset Used
-
-**File:** `mail.csv`
-This dataset is a popular SMS spam dataset.
-
-### Columns in Dataset
-
-| Column             | Meaning                                        |
-| ------------------ | ---------------------------------------------- |
-| `v1`               | Label (`ham` or `spam`)                        |
-| `v2`               | Message text                                   |
-| `Unnamed: 2, 3, 4` | Extra empty columns (dropped in preprocessing) |
+| Column         | Description                               |
+| -------------- | ----------------------------------------- |
+| `target`       | House price (example: `$418,000`)         |
+| `sqft`         | Total square feet (example: `1,947 sqft`) |
+| `beds`         | Bedrooms (example: `3 Beds`)              |
+| `baths`        | Bathrooms (example: `3 Baths`)            |
+| `homeFacts`    | Contains Year Built and other house facts |
+| `city`         | City of the house                         |
+| `state`        | State of the house                        |
+| `propertyType` | Type of property                          |
+| `status`       | Listing status                            |
 
 ---
 
 ## 🎯 Project Objectives
 
 * Load and clean the dataset
-* Convert text emails/messages into numerical features using **TF-IDF**
-* Train **KNN classifier**
-* Train **Decision Tree classifier**
-* Evaluate both models using:
-
-  * Accuracy
-  * Classification Report
-  * Confusion Matrix
-* Predict spam/ham for new custom messages
+* Convert price and sqft columns into numeric values
+* Extract `YearBuilt` from `homeFacts`
+* Create new engineered features
+* Encode categorical features using OneHotEncoding
+* Train models and evaluate performance
+* Analyze feature importance using a tree-based model
 
 ---
 
-## 🧠 Machine Learning Models
+## 🧠 Feature Engineering
 
-### ✅ 1. KNN Classifier
+### 1) House Age
 
-* Uses nearest neighbors to classify a message based on similar messages.
+`YearBuilt` is extracted from the `homeFacts` column.
 
-### ✅ 2. Decision Tree Classifier
+HouseAge is calculated as:
 
-* Creates a tree structure based on word features to classify messages.
+HouseAge = CurrentYear - YearBuilt
+
+---
+
+### 2) Price per Square Foot
+
+PricePerSqFt is calculated as:
+
+PricePerSqFt = Price / SqFt
+
+---
+
+## 🏷️ Categorical Encoding
+
+Categorical columns are converted into numerical form using:
+
+* OneHotEncoder from Scikit-learn
+
+Examples:
+
+* city
+* state
+* propertyType
+* status
+* fireplace
+
+---
+
+## 🤖 Machine Learning Models Used
+
+### 1) Ridge Regression
+
+Used as a baseline regression model.
+
+### 2) Random Forest Regressor
+
+Used for:
+
+* Better performance
+* Feature importance extraction
+
+---
+
+## 📊 Model Evaluation Metrics
+
+Both models are evaluated using:
+
+* Mean Absolute Error (MAE)
+* R² Score
+
+---
+
+## 📌 Feature Importance Output
+
+Feature importance is extracted from Random Forest and saved as:
+
+`feature_importance.csv`
+
+This file contains:
+
+* Feature name
+* Importance score
 
 ---
 
@@ -64,106 +126,54 @@ This dataset is a popular SMS spam dataset.
 * Pandas
 * NumPy
 * Scikit-learn
-* Matplotlib
 
 ---
 
-## 📂 Project Files
+## 📁 Project Files
 
-| File               | Description                                     |
-| ------------------ | ----------------------------------------------- |
-| `Spam_email.ipynb` | Jupyter notebook containing full implementation |
-| `mail.csv`         | Dataset file                                    |
-| `README.md`        | Project documentation                           |
+| File                     | Description                                     |
+| ------------------------ | ----------------------------------------------- |
+| `assignment-1.ipynb`     | Jupyter notebook containing full implementation |
+| `house_data.csv`         | Dataset used                                    |
+| `feature_importance.csv` | Generated output file                           |
+| `README.md`              | Project documentation                           |
 
 ---
 
 ## 🚀 How to Run the Project
 
-### 1️⃣ Install Required Libraries
-
-Run this in terminal or Jupyter:
+### Step 1: Install Required Libraries
 
 ```bash
-pip install pandas numpy scikit-learn matplotlib
+pip install pandas numpy scikit-learn
 ```
 
----
-
-### 2️⃣ Run the Notebook
-
-Open Jupyter Notebook and run:
+### Step 2: Run the Notebook
 
 ```bash
 jupyter notebook
 ```
 
-Then open:
+Open:
+`assignment-1.ipynb`
 
-✅ `Spam_email.ipynb`
-
----
-
-## 🧹 Data Preprocessing Steps
-
-* Load dataset using encoding: `windows-1252`
-* Keep only useful columns: `v1` and `v2`
-* Rename:
-
-  * `v1 → label`
-  * `v2 → text`
-* Convert labels:
-
-  * `ham → 0`
-  * `spam → 1`
-* Convert text into numerical features using:
-
-  * **TF-IDF Vectorizer**
-  * `max_features = 5000`
+Run all cells to generate results.
 
 ---
 
-## 📊 Model Evaluation Metrics
+## ✅ Expected Results
 
-Both models are evaluated using:
+The most important features usually include:
 
-* **Accuracy Score**
-* **Confusion Matrix**
-* **Precision / Recall / F1-score**
-
----
-
-## ✨ Example Prediction
-
-The notebook also includes prediction for new messages like:
-
-* `"Congratulations! You won a free iPhone. Click here!"` → **SPAM 🚨**
-* `"Hey bro, are we meeting at 6pm today?"` → **HAM ✅**
-
----
-
-## 📌 Results
-
-At the end, the notebook compares:
-
-* KNN Accuracy
-* Decision Tree Accuracy
-
-and shows a bar chart comparison.
-
----
-
-## 📌 Future Improvements
-
-* Use more models (Logistic Regression, Naive Bayes, SVM)
-* Hyperparameter tuning using GridSearchCV
-* Save the trained model as `.pkl` using joblib
-* Deploy as a web app using Flask/Streamlit
+* SqFt
+* HouseAge
+* Beds
+* Baths
+* Location-related columns (city/state)
+* Property type
 
 ---
 
 ## 👨‍💻 Author
 
-**Krushna Chandra Bindhani**
-
----
+Krushna Chandra Bindhani
