@@ -73,10 +73,10 @@ Steps performed:
 
 ## Files in this Repository  
 
-Untitled6.ipynb       # Main Jupyter Notebook containing full implementation  
-housing_data.csv      # Housing dataset  
-email_data.csv        # Email spam dataset  
-README.md             # Assignment documentation  
+Untitled6.ipynb      
+housing_data.csv        
+email_data.csv        
+README.md              
 
 ## Tools and Technologies Used  
 
