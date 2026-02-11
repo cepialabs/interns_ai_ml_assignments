@@ -1,4 +1,4 @@
-# 📊 Feature Scaling 
+# 📊 Feature Scaling Assignment
 
 * **DATE:** 11 February 2026
 
@@ -9,7 +9,6 @@ Two real-world datasets are used:
 * **Ames Housing Dataset** – Regression problem
 * **SpamAssassin Email Dataset** – Classification problem
 
-The assignment compares model performance **before and after applying feature scaling**.
 
 ---
 
@@ -20,7 +19,6 @@ The assignment compares model performance **before and after applying feature sc
 * **Name:** Ames Housing Dataset
 * **Provider:** Kaggle
 * **Link:** [https://www.kaggle.com/datasets/prevek18/ames-housing-dataset](https://www.kaggle.com/datasets/prevek18/ames-housing-dataset)
-* **Accessed On:** 11 February 2026
 
 ### 🔹 Objective
 
@@ -60,7 +58,6 @@ Only **numerical features** are used (e.g., area, year built, number of rooms).
 * **Name:** SpamAssassin Email Dataset
 * **Provider:** Kaggle
 * **Link:** [https://www.kaggle.com/datasets/ganiyuolalekan/spam-assassin-email-classification-dataset](https://www.kaggle.com/datasets/ganiyuolalekan/spam-assassin-email-classification-dataset)
-* **Accessed On:** 11 February 2026
 
 ### 🔹 Objective
 
@@ -92,6 +89,8 @@ Classify emails as **spam** or **not spam** and analyze the effect of feature sc
 * KNN shows significant improvement after scaling
 * Feature scaling is essential for distance-based models
 
+---
+
 ## 📈 Overall Conclusion
 
 Feature scaling plays a crucial role in machine learning. While simple linear regression is mostly unaffected, models such as Ridge Regression, Logistic Regression, and KNN benefit significantly from scaling. Scaling ensures equal feature contribution, faster convergence, and improved model performance.
@@ -107,12 +106,4 @@ Feature scaling plays a crucial role in machine learning. While simple linear re
 
 ---
 
-## ✅  Outcomes
-
-* Demonstrated feature scaling on regression and classification tasks
-* Compared model performance before and after scaling
-* Provided clear observations and conclusions
-
----
-
-✨ This project fulfills the  requirement of analyzing the impact of feature scaling on machine learning models.
+✨ This project fulfills the assignment requirement of analyzing the impact of feature scaling on machine learning models.
