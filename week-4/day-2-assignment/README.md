@@ -1,8 +1,7 @@
 # Machine Learning Assignment — Feature Scaling, Regression & Classification
  Bodasu karunanjali
+ 
  INT2026-1462
-## Title of the Assignment  
-Study of Feature Scaling and its Effect on Regression and Classification Models
 
 ## Objective  
 The objective of this assignment is to:  
