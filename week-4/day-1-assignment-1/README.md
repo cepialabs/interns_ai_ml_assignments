@@ -43,17 +43,13 @@ Year Built is stored inside the `homeFacts` column as a nested dictionary-like s
 
 We extract `YearBuilt` and compute:
 
-[
 HouseAge = CurrentYear - YearBuilt
-]
 
 ---
 
 ### ✅ 2. Create Price per Square Foot
 
-[
 PricePerSqFt = \frac{Price}{SqFt}
-]
 
 This feature helps normalize prices across houses of different sizes.
 
