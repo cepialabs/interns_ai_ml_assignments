@@ -106,4 +106,4 @@ Feature scaling plays a crucial role in machine learning. While simple linear re
 
 ---
 
-✨ This project fulfills the assignment requirement of analyzing the impact of feature scaling on machine learning models.
+✨ This project fulfills the  requirement of analyzing the impact of feature scaling on machine learning models.
