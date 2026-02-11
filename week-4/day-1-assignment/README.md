@@ -1,6 +1,6 @@
-# Week 4 Day 1 Assignment
+# Week 4 Day 2 Assignment
 
-Date: Monday Feb 10, 2026
+Date: Monday Feb 11, 2026
 
 Dataset: `hou_all.csv` (from `week-3/day-2-assignment`).
 
