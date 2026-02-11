@@ -1,5 +1,4 @@
-# 📊 Feature Scaling Assignment
-
+# 📊 Feature Scaling 
 * **DATE:** 11 February 2026
 
 This repository demonstrates the impact of **feature scaling** on machine learning models using **regression** and **classification** tasks.
