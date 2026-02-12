@@ -56,7 +56,7 @@ Housing dataset is loaded using Pandas.
 ###  Data Preprocessing
 Categorical variables are converted into numerical format using one-hot encoding.
 
-### 4️⃣ Train-Test Split
+###  Train-Test Split
 Dataset is divided into training and testing sets.
 
 ###  Train Linear Regression Model
