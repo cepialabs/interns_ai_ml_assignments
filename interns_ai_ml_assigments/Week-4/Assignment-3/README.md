@@ -1,166 +1,139 @@
-🏠 House Price Prediction & Model Comparison
-📌 Project Overview
+# 🏠 House Price Prediction & Model Comparison
 
-This project focuses on building and comparing regression models for predicting house prices.
+---
+
+## 📌 Project Overview
+
+This project focuses on building and comparing regression models for predicting house prices.  
 It demonstrates how ensemble learning methods like Random Forest improve prediction performance compared to traditional Linear Regression.
 
-📂 Dataset
+---
 
-House Prices Dataset
+## 📂 Dataset
 
-Original Features:
+**House Prices Dataset**
 
-price (target)
+### Original Features:
 
-bedrooms
+- `price` (target)
+- `bedrooms`
+- `bathrooms`
+- `sqft_living`
+- `sqft_lot`
+- `floors`
+- `waterfront`
+- `view`
+- `condition`
+- `grade`
+- `sqft_above`
+- `sqft_basement`
+- `yr_built`
+- `yr_renovated`
+- `lat`
+- `long`
+- `sqft_living15`
+- `sqft_lot15`
 
-bathrooms
+---
 
-sqft_living
+## 🔧 Data Preprocessing
 
-sqft_lot
+- Removed unnecessary columns (`id`, `date`, `zipcode`)
+- Checked and handled missing values
+- Split dataset into training and testing sets (80% – 20%)
+- Defined features (X) and target variable (y)
 
-floors
+---
 
-waterfront
+## 🧠 Models Used
 
-view
+### 🔹 Linear Regression
 
-condition
+- Used as a baseline regression model  
+- Evaluated using R² score  
+- Helps understand linear relationships between features and price  
 
-grade
+### 🔹 Random Forest Regressor
 
-sqft_above
+- Ensemble model based on multiple decision trees  
+- Reduces overfitting  
+- Provides feature importance scores  
+- Achieved higher R² compared to Linear Regression  
 
-sqft_basement
+---
 
-yr_built
+## 🎯 Objectives
 
-yr_renovated
+- Train regression models for house price prediction  
+- Compare model performance using R² score  
+- Analyze feature importance  
+- Identify key factors influencing house prices  
 
-lat
+---
 
-long
+## 📊 Model Evaluation
 
-sqft_living15
+- Performance metric used: **R² Score**
+- Compared:
+  - Linear Regression R²
+  - Random Forest R²
+- Higher R² indicates better predictive performance
 
-sqft_lot15
+---
 
-🔧 Data Preprocessing
+## 📈 Feature Importance Analysis
 
-Removed unnecessary columns (id, date, zipcode)
-
-Checked and handled missing values
-
-Split dataset into training and testing sets (80% – 20%)
-
-Defined features (X) and target variable (y)
-
-🧠 Models Used
-🔹 Linear Regression
-
-Used as a baseline regression model
-
-Evaluated using R² score
-
-Helps understand linear relationships between features and price
-
-🔹 Random Forest Regressor
-
-Ensemble model based on multiple decision trees
-
-Reduces overfitting
-
-Provides feature importance scores
-
-Achieved higher R² compared to Linear Regression
-
-🎯 Objectives
-
-Train regression models for house price prediction
-
-Compare model performance using R² score
-
-Analyze feature importance
-
-Identify key factors influencing house prices
-
-📊 Model Evaluation
-
-Performance metric used: R² Score
-
-Compared:
-
-Linear Regression R²
-
-Random Forest R²
-
-Higher R² indicates better predictive performance
-
-📈 Feature Importance Analysis
-
-Extracted feature importance from Random Forest model
-
-Ranked features based on importance score
-
-Visualized top 10 most influential features
+- Extracted feature importance from Random Forest model  
+- Ranked features based on importance score  
+- Visualized top 10 most influential features  
 
 Common important features include:
+- `sqft_living`
+- `grade`
+- `bathrooms`
+- `lat`
+- `sqft_above`
 
-sqft_living
+---
 
-grade
+## 🛠 Tools & Libraries
 
-bathrooms
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
+- Jupyter Notebook (.ipynb)
 
-lat
+---
 
-sqft_above
+## 📁 Project Structure
 
-🛠 Tools & Libraries
+- Data Loading  
+- Data Preprocessing  
+- Train-Test Split  
+- Linear Regression Model  
+- Random Forest Model  
+- Model Comparison  
+- Feature Importance Visualization  
 
-Python
+---
 
-Pandas
+## 📌 Key Learnings
 
-NumPy
+- Ensemble methods improve regression performance  
+- R² is an effective metric for regression evaluation  
+- Property size and quality significantly influence house prices  
+- Tree-based models provide interpretable feature importance  
 
-Scikit-learn
+---
 
-Matplotlib
+## 👤 Author
 
-Jupyter Notebook (.ipynb)
+**KARTHIKA RAVELLI**
 
-📁 Project Structure
+---
 
-Data Loading
-
-Data Preprocessing
-
-Train-Test Split
-
-Linear Regression Model
-
-Random Forest Model
-
-Model Comparison
-
-Feature Importance Visualization
-
-📌 Key Learnings
-
-Ensemble methods improve regression performance
-
-R² is an effective metric for regression evaluation
-
-Property size and quality significantly influence house prices
-
-Tree-based models provide interpretable feature importance
-
-👤 Author
-
-KARTHIKA RAVELLI
-
-📄 License
+## 📄 License
 
 This project is for educational purposes only.
