@@ -1,0 +1,362 @@
+CELL-1
+
+🔹 1. Data Handling & Visualization
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+✅ numpy
+Used for numerical operations
+Works with arrays and mathematical computations
+Example: handling feature matrices
+
+✅ matplotlib.pyplot
+Used for basic data visualization
+Creating plots like line charts, histograms, scatter plots
+
+✅ seaborn
+Built on matplotlib
+Used for more advanced and attractive statistical visualizations
+👉 In short: These libraries help us analyze and visualize data.
+
+
+
+🔹 2. Data Splitting & Validation
+from sklearn.model_selection import train_test_split, cross_val_score
+
+✅ train_test_split
+Splits data into:
+Training set (to train the model)
+Testing set (to evaluate performance)
+
+✅ cross_val_score
+Performs cross-validation
+Gives a more reliable performance estimate
+👉 These ensure our model generalizes well.
+
+
+🔹 3. Data Preprocessing
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+
+✅ StandardScaler
+Standardizes numerical features
+Scales data to mean = 0 and std = 1
+Important for models like Logistic Regression
+
+✅ OneHotEncoder
+Converts categorical variables into numerical format
+
+✅ ColumnTransformer
+Applies different transformations to different columns
+Example: scale numerical columns
+Encode categorical columns
+
+✅ Pipeline
+Automates workflow:
+Preprocessing → Model Training
+Keeps code clean and prevents data leakage
+👉 This section prepares raw data for machine learning.
+
+
+
+
+🔹 4. Model Evaluation Metrics
+from sklearn.metrics import (
+    accuracy_score, f1_score, confusion_matrix,
+    mean_squared_error, r2_score
+)
+
+
+These are used to evaluate model performance.
+For Classification:
+accuracy_score → % of correct predictions
+f1_score → Balance between precision and recall
+confusion_matrix → Shows correct & incorrect classifications
+
+For Regression:
+mean_squared_error (MSE) → Measures prediction error
+r2_score → How well the model explains variance
+
+👉 These help us measure how good the model is.
+
+
+
+
+🔹 5. Machine Learning Models
+from sklearn.linear_model import LogisticRegression, LinearRegression
+from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
+from xgboost import XGBClassifier, XGBRegressor
+
+
+This project supports both classification and regression.
+
+🔸 Linear Models
+LogisticRegression → Classification
+LinearRegression → Regression
+
+🔸 Ensemble Models
+RandomForestClassifier
+RandomForestRegressor
+Combine multiple decision trees
+More powerful & robust
+
+🔸 XGBoost Models
+XGBClassifier
+XGBRegressor
+Advanced gradient boosting
+Often gives high performance
+
+👉 Multiple models allow comparison and performance optimization.
+
+
+
+🔹 6. Suppressing Warnings
+import warnings
+warnings.filterwarnings("ignore")
+
+
+Hides warning messages
+
+Makes output cleaner for presentation
+⚠️ Should be used carefully in production
+
+“This code initializes all the required libraries for data preprocessing, visualization, model building, and evaluation. It prepares a complete machine learning workflow supporting both classification and regression using models like Logistic Regression, Random Forest, and XGBoost.”
+
+
+
+CELL-2
+
+✅ 1. Load the Dataset
+df = pd.read_csv("customer_churn_ml.csv")
+
+pd stands for Pandas (a data analysis library).
+read_csv() loads a CSV file into a DataFrame.
+"customer_churn_ml.csv" is the dataset file.
+The data is stored in a variable called df.
+
+👉 In simple words:
+We are importing the customer churn dataset into Python for analysis.
+
+✅ 2. View the First Few Rows
+df.head()
+
+
+head() displays the first 5 rows of the dataset.
+Helps us:
+Understand column names
+Check data structure
+Preview sample records
+
+👉 This is used for initial data inspection.
+
+🔹 What is a DataFrame?
+
+A DataFrame is:
+A table-like structure
+Rows = observations (customers)
+Columns = features (age, contract type, charges, churn, etc.)
+
+🔹 How to Explain in One Sentence (For Slide)
+“This code loads the customer churn dataset into a Pandas DataFrame and displays the first five rows to understand the data structure.”
+
+
+
+
+CELL-3
+
+🔹 What This Code Does
+
+df.info() provides a summary of the DataFrame structure.
+
+It displays:
+✅ 1. Number of Rows (Entries)
+Total number of records in the dataset
+(e.g., number of customers)
+
+✅ 2. Column Names
+Lists all feature names
+
+✅ 3. Data Types of Each Column
+Examples:
+int64 → integers
+float64 → decimal numbers
+object → categorical/text data
+bool → True/False
+
+This helps identify:
+Numerical variables
+Categorical variables
+
+✅ 4. Non-Null Count
+Shows how many values are not missing
+Helps detect missing data
+
+✅ 5. Memory Usage
+Shows how much memory the dataset uses
+
+🔹 Why This Is Important
+
+df.info() helps us:
+Understand the dataset structure
+Detect missing values
+Identify feature types
+Prepare for preprocessing
+
+🔹 How to Explain in One Sentence (For Slide)
+“This command gives a structural summary of the dataset, including column names, data types, and missing values.”
+
+
+
+
+CELL-4
+
+🔹 What This Code Does
+
+df.describe() generates statistical summary values for all numerical columns in the dataset.
+
+It automatically calculates:
+✅ Count
+Number of non-missing values
+
+✅ Mean
+Average value
+
+✅ Standard Deviation (std)
+Measures how spread out the values are
+
+✅ Minimum (min)
+Smallest value
+
+✅ 25% (1st Quartile)
+25% of values fall below this number
+
+✅ 50% (Median)
+Middle value of the data
+
+✅ 75% (3rd Quartile)
+75% of values fall below this number
+
+✅ Maximum (max)
+Largest value
+
+🔹 Why This Is Important
+
+This helps us:
+Understand data distribution
+Detect outliers
+Check value ranges
+Identify unusual patterns
+Get a quick overview before modeling
+
+🔹 Example (Customer Churn Context)
+
+For example:
+It may show average monthly charges
+Average tenure of customers
+Minimum and maximum contract duration
+
+🔹 One-Sentence Slide Explanation
+
+“This command provides a statistical summary of numerical features, including mean, standard deviation, and value ranges.”
+
+
+
+CELL-5
+
+🔹 What This Code Does
+
+This command checks for missing values in the dataset.
+
+It works in two steps:
+
+✅ 1. df.isnull()
+Checks every cell in the DataFrame
+Returns:
+True if the value is missing (NaN)
+False if the value is present
+
+✅ 2. .sum()
+Counts the total number of True values in each column
+Since True = 1 and False = 0, summing gives the total missing values per column
+
+🔹 Output
+
+The result shows:
+Each column name
+The number of missing values in that column
+
+
+🔹 Why This Is Important
+
+Handling missing data is critical because:
+Many machine learning models cannot handle missing values
+Missing data can affect model accuracy
+Helps decide whether to:
+Remove rows
+Fill missing values (imputation)
+Drop columns
+
+🔹 One-Sentence Slide Explanation
+
+“This command identifies and counts missing values in each column of the dataset.”
+
+
+
+
+CELL-6
+
+
+🔹 What This Code Does
+
+This code performs feature engineering — creating new meaningful variables from existing ones.
+
+✅ 1. Creating avg_monthly_spend
+df["avg_monthly_spend"] = df["total_charges"] / (df["tenure_months"] + 1)
+
+
+Calculates the average spending per month for each customer.
+Formula:
+
+Average Monthly Spend=Total Charges
+		     --------------
+		    Tenure (Months)+1
+	​
+
+🔎 Why add +1?
+
+Prevents division by zero
+Handles cases where tenure might be 0 months
+👉 This helps normalize total spending over time.
+
+✅ 2. Creating tickets_per_month
+df["tickets_per_month"] = df["support_tickets"] / (df["tenure_months"] + 1)
+
+
+Calculates average number of support tickets per month
+Shows how frequently a customer contacts support
+👉 This helps measure customer engagement or dissatisfaction rate.
+
+🔹 Why This Is Important
+
+Feature engineering:
+Improves model performance
+Makes patterns easier to detect
+Creates more meaningful metrics than raw totals
+
+Instead of using:
+Total charges
+Total support tickets
+
+We now use:
+Spending rate
+Support usage rate
+Which are more predictive for churn analysis.
+
+🔹 One-Sentence Slide Explanation
+“This step creates new features that calculate average monthly spending and support ticket frequency to improve model performance.”
+
+
+
+
