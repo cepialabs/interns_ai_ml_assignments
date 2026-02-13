@@ -126,4 +126,4 @@ Random Forest performs better than basic models in most cases because it:
 
 ## 👤 Author
 
-Krushna Chandra Bindhani
+**Swati M Patil**
