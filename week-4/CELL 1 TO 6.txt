@@ -211,9 +211,7 @@ Prepare for preprocessing
 
 
 CELL-4
-
 🔹 What This Code Does
-
 df.describe() generates statistical summary values for all numerical columns in the dataset.
 
 It automatically calculates:
@@ -307,7 +305,6 @@ Drop columns
 
 CELL-6
 
-
 🔹 What This Code Does
 
 This code performs feature engineering — creating new meaningful variables from existing ones.
@@ -359,4 +356,547 @@ Which are more predictive for churn analysis.
 
 
 
+CELL-7
 
+🔹 1️⃣ Separating Features and Targets
+X = df.drop(["customer_id", "churn", "lifetime_value"], axis=1)
+y_class = df["churn"]
+y_reg = df["lifetime_value"]
+
+✅ X
+
+Drops:
+"customer_id" → Identifier (not useful for learning)
+"churn" → Target for classification
+"lifetime_value" → Target for regression
+Remaining columns become input features
+
+✅ y_class
+Target variable for classification
+Predicting whether customer churned (0 or 1)
+
+✅ y_reg
+Target variable for regression
+Predicting customer's lifetime value (continuous number)
+
+So you're preparing the dataset for:
+🔵 Classification (Churn prediction)
+🟢 Regression (Lifetime value prediction)
+
+🔹 2️⃣ Identifying Numerical and Categorical Features
+num_features = X.select_dtypes(include=["int64", "float64"]).columns
+cat_features = X.select_dtypes(include=["object"]).columns
+
+✅ num_features
+Selects columns with numeric data types:
+int64
+float64
+These will be scaled later
+
+✅ cat_features
+Selects columns with datatype "object"
+These are categorical variables (e.g., gender, country, plan type)
+
+This automatic detection is very useful when:
+Working with large datasets
+Column names may change
+You don’t want to manually list columns
+
+
+🔹 3️⃣ Creating a Preprocessing Pipeline
+preprocessor = ColumnTransformer(
+    transformers=[
+        ("num", StandardScaler(), num_features),
+        ("cat", OneHotEncoder(drop="first"), cat_features)
+    ]
+)
+
+
+This is the most important part.
+
+🔧 ColumnTransformer
+Allows you to apply different transformations to different columns.
+
+
+🟢 For Numerical Columns:
+("num", StandardScaler(), num_features)
+
+
+Applies StandardScaler
+Formula:
+
+𝑧 = 𝑥 − 𝜇              z=z-score = Meaning: Standardized value		μ= Mu = Meaning: Mean (average) of the data
+   ---------               x=Meaning: Original data value		𝜎=Sigma = Meaning: Standard deviation
+      𝜎
+	​
+
+
+Converts values to:
+Mean = 0
+Standard deviation = 1
+
+✔ Helps models like:
+Logistic Regression
+SVM
+KNN
+Neural Networks
+
+
+🔵 For Categorical Columns:
+("cat", OneHotEncoder(drop="first"), cat_features)
+
+
+Converts categorical variables into dummy variables
+Example:
+Gender
+Male
+Female
+
+Becomes:
+Gender_Male
+1
+0
+
+🔥 Why drop="first"?
+Avoids Dummy Variable Trap
+Prevents multicollinearity
+Important for linear models
+
+🎯 What This Code Achieves
+You now have:
+
+Component	Purpose
+X		Feature matrix
+y_class		Classification target
+y_reg		Regression target
+num_features	List of numerical columns
+cat_features	List of categorical columns
+preprocessor	Automatic scaling + encoding pipeline
+
+🚀 Why This Is Best Practice
+✔ Automatically handles mixed data
+✔ Prevents data leakage (when used inside Pipeline)
+✔ Clean and production-ready
+✔ Works seamlessly with GridSearchCV
+✔ Scalable to large datasets
+
+🧠 How It Is Typically Used
+from sklearn.pipeline import Pipeline
+from sklearn.linear_model import LogisticRegression
+
+model = Pipeline(steps=[
+    ("preprocessing", preprocessor),
+    ("classifier", LogisticRegression())
+])
+
+model.fit(X_train, y_train)
+
+
+The pipeline will:
+Scale numeric features
+Encode categorical features
+Train the model
+All in one clean step.
+
+
+
+CELL-8
+
+🔹 Step 1: Split the Data
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y_class, test_size=0.2, random_state=42
+)
+
+What this does:
+
+Splits the data into:
+80% Training data
+20% Testing data
+random_state=42 → makes sure you get the same split every time.
+👉 We train on training data and test on unseen data.
+
+🔹 Step 2: Define Different Models
+models_class = {
+    "Logistic Regression": LogisticRegression(),
+    "Random Forest": RandomForestClassifier(n_estimators=200),
+    "XGBoost": XGBClassifier(eval_metric="logloss")
+}
+
+
+You are creating 3 different classification models:
+Logistic Regression → Simple linear classifier
+Random Forest → Many decision trees combined
+XGBoost → Advanced boosting algorithm
+👉 This helps compare which model performs better.
+
+
+🔹 Step 3: Create Empty Results Dictionary
+results = {}
+
+
+This will store:
+Accuracy
+F1 Score
+for each model.
+
+🔹 Step 4: Loop Through Each Model
+for name, model in models_class.items():
+
+
+This means:
+Take one model at a time
+Train it
+Test it
+Save results
+
+🔹 Step 5: Create a Pipeline
+pipe = Pipeline([
+    ("prep", preprocessor),
+    ("model", model)
+])
+
+
+Pipeline does two things automatically:
+Preprocess data
+Scale numeric features
+Encode categorical features
+Train the model
+👉 This prevents mistakes and keeps code clean.
+
+🔹 Step 6: Train the Model
+pipe.fit(X_train, y_train)
+
+
+Preprocess training data
+Train the model
+
+🔹 Step 7: Make Predictions
+preds = pipe.predict(X_test)
+
+
+Preprocess test data
+Predict churn values
+
+🔹 Step 8: Calculate Performance
+results[name] = {
+    "Accuracy": accuracy_score(y_test, preds),
+    "F1": f1_score(y_test, preds)
+}
+
+
+For each model, we calculate:
+
+✅ Accuracy
+How many predictions were correct.
+
+✅ F1 Score
+Balances Precision and Recall.
+Useful when data is imbalanced.
+
+🔹 Step 9: Show Results
+pd.DataFrame(results).T
+
+
+Displays a comparison table like:
+
+Model			Accuracy	F1
+Logistic Regression	0.85		0.82
+Random Forest		0.90		0.88
+XGBoost			0.92		0.90
+
+.T just makes the table look better.
+
+🎯 In One Simple Sentence:
+
+This code:
+👉 Splits the data
+👉 Trains 3 different models
+👉 Applies preprocessing automatically
+👉 Compares their performance
+👉 Shows which model works best
+
+
+
+CELL-9
+
+🔹 Step 1: Split the Data
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y_reg, test_size=0.2, random_state=42
+)
+
+What this does:
+
+Splits data into:
+80% Training data
+20% Testing data
+
+y_reg → Target is a continuous value (like lifetime value).
+random_state=42 → Same split every time.
+👉 We train on training data and evaluate on test data.
+
+🔹 Step 2: Define Regression Models
+models_reg = {
+    "Linear Regression": LinearRegression(),
+    "Random Forest": RandomForestRegressor(n_estimators=200),
+    "XGBoost": XGBRegressor()
+}
+
+
+You are comparing 3 regression models:
+1️⃣ Linear Regression
+Simple linear model
+Assumes straight-line relationship
+
+2️⃣ Random Forest Regressor
+Many decision trees combined
+Handles non-linear relationships well
+
+3️⃣ XGBoost Regressor
+Advanced boosting algorithm
+Usually very powerful for structured data
+
+🔹 Step 3: Create Empty Dictionary
+reg_results = {}
+
+
+This will store:
+RMSE
+R² score
+for each model.
+
+🔹 Step 4: Loop Through Models
+for name, model in models_reg.items():
+
+
+This means:
+Take one model at a time
+Train it
+Test it
+Save results
+
+🔹 Step 5: Use Pipeline
+pipe = Pipeline([
+    ("prep", preprocessor),
+    ("model", model)
+])
+
+
+Pipeline automatically:
+Scales numeric features
+Encodes categorical features
+Trains the model
+👉 Keeps code clean and prevents data leakage.
+
+🔹 Step 6: Train Model
+pipe.fit(X_train, y_train)
+
+
+Preprocess training data
+Train the regression model
+
+🔹 Step 7: Make Predictions
+preds = pipe.predict(X_test)
+
+
+Preprocess test data
+Predict continuous values
+
+🔹 Step 8: Calculate Performance
+reg_results[name] = {
+    "RMSE": np.sqrt(mean_squared_error(y_test, preds)),
+    "R2": r2_score(y_test, preds)
+}
+
+✅ RMSE (Root Mean Squared Error)
+Measures average prediction error
+Lower RMSE = Better model
+
+✅ R² Score
+Shows how much variance is explained
+Closer to 1 = Better model
+
+🔹 Step 9: Display Results
+pd.DataFrame(reg_results).T
+
+
+Shows comparison table like:
+
+Model			RMSE	R2
+Linear Regression	500	0.82
+Random Forest		300	0.91
+XGBoost			250	0.94
+🎯 In One Simple Sentence:
+
+This code:
+👉 Splits data
+👉 Trains 3 regression models
+👉 Automatically preprocesses data
+👉 Calculates RMSE and R²
+👉 Compares which model predicts best
+
+
+
+CELL-10
+
+Here is the simple explanation of your code 👇
+
+🔹 Step 1: Create the Best Model
+best_model = Pipeline([
+    ("prep", preprocessor),
+    ("model", RandomForestClassifier(n_estimators=200))
+])
+
+What this does:
+You are creating a Pipeline that:
+Preprocesses the data
+Scales numerical features
+Encodes categorical features
+Trains a Random Forest classifier
+Uses 200 decision trees
+👉 Everything happens automatically in order.
+
+🔹 Step 2: Train the Model
+best_model.fit(X_train, y_class.loc[X_train.index])
+
+
+Trains the model using training data.
+y_class.loc[X_train.index] ensures the correct target rows match the training features.
+👉 Model learns patterns from training data.
+
+🔹 Step 3: Make Predictions
+preds = best_model.predict(X_test)
+
+Uses the trained model
+Predicts churn (0 or 1) on test data
+
+🔹 Step 4: Create Confusion Matrix
+cm = confusion_matrix(y_class.loc[X_test.index], preds)
+
+
+A confusion matrix compares:
+
+		Predicted 0	Predicted 1
+Actual 0	TN		FP
+Actual 1	FN		TP
+
+Where:
+TP = Correct churn predictions
+TN = Correct non-churn predictions
+FP = False alarm
+FN = Missed churn
+
+🔹 Step 5: Visualize the Confusion Matrix
+sns.heatmap(cm, annot=True, fmt="d")
+plt.title("Confusion Matrix")
+plt.show()
+
+
+This:
+Creates a heatmap
+Shows numbers inside each box
+Displays a labeled confusion matrix plot
+👉 Makes it easy to see model performance visually.
+
+
+
+CELL-11
+
+🔹 Step 1: Get All Feature Names
+feature_names = (
+    num_features.tolist() +
+    list(best_model.named_steps["prep"]
+         .named_transformers_["cat"]
+         .get_feature_names_out(cat_features))
+)
+
+What this does:
+
+Your model used:
+✅ Numerical features (scaled)
+✅ Categorical features (one-hot encoded)
+After one-hot encoding, one categorical column becomes multiple columns.
+
+This code:
+Takes the original numerical feature names.
+Gets the new encoded categorical feature names.
+Combines them into one full feature list.
+👉 Now you have the correct names for all features used in the model.
+
+🔹 Step 2: Get Feature Importance
+importances = best_model.named_steps["model"].feature_importances_
+
+
+Extracts feature importance values from the Random Forest model.
+These numbers show how important each feature is for prediction.
+👉 Higher value = More important feature.
+
+🔹 Step 3: Create a Sorted Series
+fi = pd.Series(importances, index=feature_names).sort_values(ascending=False)[:10]
+
+
+This:
+Matches importance values with feature names
+Sorts them from highest to lowest
+Selects the top 10 most important features
+
+🔹 Step 4: Plot the Top Features
+fi.plot(kind="barh")
+plt.title("Top Feature Importances")
+plt.show()
+
+
+Creates a horizontal bar chart
+Shows top 10 most important features visually
+👉 Bigger bar = More influence on prediction
+
+
+
+CELL-12
+
+🔹 Step 1: Create the Best Regression Model
+best_reg = Pipeline([
+    ("prep", preprocessor),
+    ("model", RandomForestRegressor(n_estimators=200))
+])
+
+What this does:
+
+You are creating a Pipeline that:
+Preprocesses the data
+Scales numeric features
+Encodes categorical features
+Trains a Random Forest Regressor
+Uses 200 decision trees
+Predicts continuous values (like lifetime value)
+👉 Everything happens automatically in order.
+
+🔹 Step 2: Train the Model
+best_reg.fit(X_train, y_train)
+
+The model learns patterns from the training data.
+It learns how features relate to lifetime value.
+
+
+🔹 Step 3: Make Predictions
+preds = best_reg.predict(X_test)
+
+Uses the trained model
+Predicts lifetime value for test data
+
+🔹 Step 4: Plot Actual vs Predicted
+plt.scatter(y_test, preds)
+plt.xlabel("Actual")
+plt.ylabel("Predicted")
+plt.title("Predicted vs Actual Lifetime Value")
+plt.show()
+
+
+This creates a scatter plot:
+X-axis → Actual values
+Y-axis → Predicted values
+👉 Each dot represents one customer.
+
+🔎 How to Interpret the Plot
+If dots are close to a straight diagonal line → model is good
+If dots are scattered far away → model is not accurate
+The closer predictions are to actual values, the better the model.
