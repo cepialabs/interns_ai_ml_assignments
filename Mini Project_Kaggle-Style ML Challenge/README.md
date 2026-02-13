@@ -25,6 +25,7 @@ The objective is to maximize classification accuracy and analyze the important f
 ## 📂 3. Dataset Description
 
 - Dataset Name: Titanic Dataset (Kaggle)
+- url: https://www.kaggle.com/datasets/heptapod/titanic
 - Total Records: 891
 - Total Features: 12
 - Target Variable: Survived
