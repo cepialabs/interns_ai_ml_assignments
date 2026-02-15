@@ -1,0 +1,201 @@
+customer_id,age,gender,tenure_months,monthly_charges,total_charges,contract_type,payment_method,internet_service,support_tickets,churn,lifetime_value
+1,45,Male,12,70.5,846,Month-to-month,Credit Card,Fiber,3,1,1200
+2,34,Female,48,55.2,2649,Two year,Bank Transfer,DSL,0,0,6800
+3,29,Female,5,89.1,445,Month-to-month,Electronic Check,Fiber,5,1,900
+4,62,Male,72,40.3,2901,Two year,Credit Card,None,1,0,8200
+5,51,Female,24,65,1560,One year,Debit Card,DSL,2,0,4100
+6,41,Male,8,95.6,765,Month-to-month,Electronic Check,Fiber,4,1,1100
+7,38,Female,36,58.9,2120,One year,Bank Transfer,DSL,1,0,5200
+8,27,Male,3,99.2,298,Month-to-month,Electronic Check,Fiber,6,1,700
+9,55,Female,60,42.5,2550,Two year,Credit Card,None,0,0,7600
+10,47,Male,18,73.4,1321,One year,Debit Card,Fiber,2,0,3600
+11,33,Male,6,85.4,512,Month-to-month,Electronic Check,Fiber,4,1,950
+12,59,Female,66,44.2,2917,Two year,Credit Card,None,0,0,7800
+13,42,Male,30,67.9,2037,One year,Debit Card,DSL,1,0,4800
+14,26,Female,2,98.5,197,Month-to-month,Electronic Check,Fiber,6,1,600
+15,48,Male,20,72.1,1442,One year,Bank Transfer,Fiber,2,0,3700
+16,36,Female,15,61.3,919,Month-to-month,Debit Card,DSL,3,1,1800
+17,63,Male,70,39.8,2786,Two year,Credit Card,None,0,0,8100
+18,29,Male,4,92.7,371,Month-to-month,Electronic Check,Fiber,5,1,800
+19,54,Female,55,45.9,2524,Two year,Bank Transfer,None,1,0,7200
+20,40,Male,22,69.4,1527,One year,Debit Card,Fiber,2,0,3900
+21,35,Female,10,75.2,752,Month-to-month,Electronic Check,Fiber,4,1,1300
+22,61,Male,68,41.5,2822,Two year,Credit Card,None,0,0,8000
+23,44,Female,28,63.7,1784,One year,Debit Card,DSL,1,0,4600
+24,31,Male,7,88.9,622,Month-to-month,Electronic Check,Fiber,5,1,1100
+25,52,Female,40,56.4,2256,One year,Bank Transfer,DSL,1,0,5500
+26,27,Male,3,99.1,297,Month-to-month,Electronic Check,Fiber,6,1,700
+27,58,Female,62,43.1,2672,Two year,Credit Card,None,0,0,7600
+28,39,Male,18,71.8,1292,One year,Debit Card,Fiber,2,0,3600
+29,34,Female,12,66.5,798,Month-to-month,Bank Transfer,DSL,3,1,1600
+30,65,Male,75,38.7,2903,Two year,Credit Card,None,0,0,8300
+31,28,Female,5,90.3,452,Month-to-month,Electronic Check,Fiber,5,1,900
+32,46,Male,24,64.8,1555,One year,Debit Card,DSL,1,0,4200
+33,53,Female,50,52.6,2630,Two year,Bank Transfer,None,1,0,6900
+34,37,Male,14,73.9,1034,Month-to-month,Electronic Check,Fiber,3,1,1900
+35,60,Female,72,40,2880,Two year,Credit Card,None,0,0,8200
+36,32,Male,9,82.4,742,Month-to-month,Electronic Check,Fiber,4,1,1400
+37,49,Female,26,61.9,1609,One year,Debit Card,DSL,2,0,4300
+38,41,Male,19,68.7,1305,One year,Bank Transfer,Fiber,2,0,3500
+39,56,Female,58,46.3,2685,Two year,Credit Card,None,0,0,7400
+40,24,Male,1,100,100,Month-to-month,Electronic Check,Fiber,6,1,500
+41,35,Female,72,41.5,2988,Two year,Credit Card,None,0,0,8350
+42,58,Male,15,89.1,1337,Month-to-month,Electronic Check,Fiber,4,1,1950
+43,43,Male,60,58.7,3522,Two year,Bank Transfer,DSL,1,0,6920
+44,28,Female,4,98.3,393,Month-to-month,Electronic Check,Fiber,6,1,750
+45,51,Female,38,65.4,2485,One year,Debit Card,DSL,2,0,5450
+46,62,Male,10,73.8,738,Month-to-month,Bank Transfer,Fiber,3,1,1500
+47,32,Female,55,45.9,2524,Two year,Credit Card,None,0,0,7300
+48,47,Male,1,99.9,100,Month-to-month,Electronic Check,Fiber,6,1,550
+49,40,Female,29,62.1,1801,One year,Debit Card,DSL,1,0,4750
+50,25,Male,8,85.5,684,Month-to-month,Electronic Check,Fiber,5,1,1150
+51,55,Female,70,40.5,2835,Two year,Credit Card,None,1,0,8050
+52,30,Male,12,70.2,842,Month-to-month,Debit Card,Fiber,3,1,1700
+53,49,Female,45,55.8,2511,One year,Bank Transfer,DSL,2,0,6050
+54,60,Male,3,97.5,293,Month-to-month,Electronic Check,Fiber,6,1,650
+55,38,Female,65,42.1,2736,Two year,Credit Card,None,0,0,7750
+56,44,Male,9,80.5,724,Month-to-month,Electronic Check,Fiber,4,1,1350
+57,53,Female,24,68.9,1654,One year,Debit Card,Fiber,1,0,4050
+58,26,Male,2,99.5,199,Month-to-month,Electronic Check,Fiber,6,1,600
+59,64,Female,75,39.1,2932,Two year,Credit Card,None,0,0,8450
+60,41,Male,18,72.5,1305,One year,Bank Transfer,Fiber,2,0,3650
+61,37,Female,5,92.4,462,Month-to-month,Electronic Check,Fiber,5,1,950
+62,50,Male,50,50.5,2525,Two year,Bank Transfer,DSL,1,0,6750
+63,29,Female,14,75.1,1051,Month-to-month,Debit Card,DSL,3,1,1850
+64,56,Male,73,38.9,2840,Two year,Credit Card,None,0,0,8300
+65,46,Female,35,60.5,2117,One year,Debit Card,DSL,1,0,5150
+66,33,Male,6,88.5,531,Month-to-month,Electronic Check,Fiber,5,1,1050
+67,61,Female,68,43.3,2944,Two year,Credit Card,None,0,0,7950
+68,39,Male,20,71.1,1422,One year,Debit Card,Fiber,2,0,3800
+69,27,Female,2,99.8,199,Month-to-month,Electronic Check,Fiber,6,1,600
+70,54,Male,42,57.1,2398,One year,Bank Transfer,DSL,1,0,5800
+71,36,Female,11,84.5,930,Month-to-month,Electronic Check,Fiber,4,1,1450
+72,63,Male,74,39.5,2923,Two year,Credit Card,None,0,0,8400
+73,48,Female,26,66.8,1737,One year,DSL,Debit Card,1,0,4550
+74,31,Male,7,93.1,652,Month-to-month,Electronic Check,Fiber,5,1,1000
+75,52,Female,58,44.8,2600,Two year,Bank Transfer,None,1,0,7500
+76,45,Male,13,74.5,968,Month-to-month,Debit Card,Fiber,3,1,1750
+77,59,Female,30,61.2,1836,One year,Bank Transfer,DSL,2,0,4950
+78,28,Male,4,96.5,386,Month-to-month,Electronic Check,Fiber,5,1,850
+79,60,Female,71,40.2,2854,Two year,Credit Card,None,0,0,8150
+80,42,Male,22,69.9,1538,One year,Debit Card,Fiber,2,0,3950
+81,35,Female,15,87.5,1312,Month-to-month,Electronic Check,Fiber,4,1,2000
+82,57,Male,63,43.8,2759,Two year,Credit Card,None,0,0,7850
+83,41,Female,33,64.1,2115,One year,Debit Card,DSL,1,0,5050
+84,26,Male,1,99.7,100,Month-to-month,Electronic Check,Fiber,6,1,550
+85,54,Female,72,40.8,2938,Two year,Credit Card,None,0,0,8300
+86,47,Male,25,68.5,1712,One year,Fiber,Debit Card,2,0,4350
+87,30,Female,8,91.5,732,Month-to-month,Electronic Check,Fiber,5,1,1250
+88,65,Male,75,38.8,2910,Two year,Credit Card,None,0,0,8400
+89,43,Female,38,62.4,2371,One year,DSL,Bank Transfer,1,0,5350
+90,29,Male,5,95.8,479,Month-to-month,Electronic Check,Fiber,5,1,900
+91,51,Female,52,53.5,2782,Two year,Bank Transfer,DSL,1,0,7150
+92,34,Male,10,81.1,811,Month-to-month,Debit Card,Fiber,4,1,1550
+93,48,Female,28,67.2,1881,One year,Debit Card,Fiber,2,0,4650
+94,62,Male,68,41.2,2795,Two year,Credit Card,None,0,0,7900
+95,37,Female,12,70.8,849,Month-to-month,Bank Transfer,DSL,3,1,1650
+96,55,Male,60,44.5,2670,Two year,Credit Card,None,1,0,7650
+97,40,Female,32,63.5,2032,One year,Debit Card,DSL,1,0,4900
+98,25,Male,3,98.9,297,Month-to-month,Electronic Check,Fiber,6,1,700
+99,50,Female,45,56.5,2542,One year,Bank Transfer,DSL,1,0,6250
+100,64,Male,72,40.1,2887,Two year,Credit Card,None,0,0,8250
+101,33,Female,18,72.8,1310,One year,Debit Card,Fiber,2,0,3750
+102,46,Male,6,94.2,565,Month-to-month,Electronic Check,Fiber,4,1,1000
+103,58,Female,68,43.5,2958,Two year,Credit Card,None,0,0,8000
+104,44,Male,30,65.1,1953,One year,DSL,Debit Card,1,0,4700
+105,27,Female,2,99.3,199,Month-to-month,Electronic Check,Fiber,6,1,600
+106,53,Male,55,51.5,2832,Two year,Bank Transfer,DSL,1,0,7050
+107,36,Female,14,82.1,1149,Month-to-month,Electronic Check,Fiber,3,1,1900
+108,61,Male,70,41.8,2926,Two year,Credit Card,None,0,0,8100
+109,39,Female,24,69.1,1658,One year,Debit Card,Fiber,2,0,4150
+110,24,Male,1,100,100,Month-to-month,Electronic Check,Fiber,6,1,500
+111,50,Female,40,57.8,2312,One year,Bank Transfer,DSL,1,0,5650
+112,45,Male,18,73.1,1316,Month-to-month,Debit Card,Fiber,3,1,2100
+113,60,Female,75,38.6,2895,Two year,Credit Card,None,0,0,8350
+114,31,Male,5,96.9,485,Month-to-month,Electronic Check,Fiber,5,1,950
+115,42,Female,20,66.5,1330,One year,Debit Card,DSL,2,0,4400
+116,56,Male,65,44.1,2866,Two year,Credit Card,None,1,0,7800
+117,38,Female,11,83.2,915,Month-to-month,Electronic Check,Fiber,4,1,1400
+118,63,Male,72,40.5,2916,Two year,Credit Card,None,0,0,8250
+119,47,Female,25,67.9,1697,One year,Debit Card,Fiber,2,0,4300
+120,29,Male,4,98.7,395,Month-to-month,Electronic Check,Fiber,6,1,800
+121,54,Female,58,46.1,2673,Two year,Bank Transfer,None,1,0,7450
+122,34,Male,15,76.5,1147,Month-to-month,Debit Card,Fiber,3,1,2050
+123,51,Female,36,60.1,2163,One year,Bank Transfer,DSL,1,0,5300
+124,26,Male,2,99.4,199,Month-to-month,Electronic Check,Fiber,6,1,650
+125,62,Female,70,40.9,2863,Two year,Credit Card,None,0,0,8150
+126,45,Male,20,68.5,1370,One year,Debit Card,DSL,2,0,4000
+127,35,Female,7,90.1,631,Month-to-month,Electronic Check,Fiber,5,1,1150
+128,57,Male,60,42.8,2568,Two year,Bank Transfer,None,0,0,7700
+129,43,Female,31,63.8,1978,One year,Debit Card,DSL,1,0,4850
+130,28,Male,3,99.1,297,Month-to-month,Electronic Check,Fiber,6,1,700
+131,60,Female,73,39.8,2905,Two year,Credit Card,None,0,0,8300
+132,41,Male,22,71.9,1582,One year,Fiber,Debit Card,2,0,4200
+133,30,Female,12,80.5,966,Month-to-month,Electronic Check,Fiber,4,1,1600
+134,55,Male,65,44.9,2918,Two year,Credit Card,None,1,0,7850
+135,47,Female,37,61.5,2275,One year,Bank Transfer,DSL,1,0,5400
+136,25,Male,1,100.2,100,Month-to-month,Electronic Check,Fiber,6,1,500
+137,53,Female,50,52.8,2640,Two year,Bank Transfer,DSL,1,0,6950
+138,36,Male,10,85.9,859,Month-to-month,Electronic Check,Fiber,4,1,1450
+139,59,Female,70,41.1,2877,Two year,Credit Card,None,0,0,8100
+140,44,Male,26,68.9,1791,One year,Debit Card,Fiber,2,0,4450
+141,32,Female,5,95.5,477,Month-to-month,Electronic Check,Fiber,5,1,900
+142,65,Male,75,39,2925,Two year,Credit Card,None,0,0,8400
+143,49,Female,30,60.5,1815,One year,DSL,Debit Card,1,0,4950
+144,27,Male,2,99.6,199,Month-to-month,Electronic Check,Fiber,6,1,600
+145,56,Female,62,43.5,2697,Two year,Credit Card,None,0,0,7750
+146,40,Male,16,75.5,1208,Month-to-month,Bank Transfer,Fiber,3,1,1850
+147,52,Female,45,57.1,2569,One year,Bank Transfer,DSL,1,0,6100
+148,33,Male,8,91.9,735,Month-to-month,Electronic Check,Fiber,5,1,1200
+149,61,Female,71,40.5,2875,Two year,Credit Card,None,0,0,8200
+150,35,Male,28,69.5,1946,One year,Debit Card,Fiber,2,0,4600
+151,48,Female,12,81.2,974,Month-to-month,Electronic Check,Fiber,4,1,1700
+152,64,Male,74,39.2,2899,Two year,Credit Card,None,0,0,8350
+153,41,Female,38,62.9,2390,One year,DSL,Bank Transfer,1,0,5550
+154,29,Male,4,97.5,390,Month-to-month,Electronic Check,Fiber,5,1,850
+155,55,Female,68,44.5,3026,Two year,Credit Card,None,0,0,7900
+156,37,Male,20,70.5,1410,One year,Debit Card,Fiber,2,0,3900
+157,43,Female,6,94.8,569,Month-to-month,Electronic Check,Fiber,5,1,1050
+158,58,Male,72,40,2880,Two year,Credit Card,None,0,0,8200
+159,46,Female,35,61.8,2163,One year,Bank Transfer,DSL,1,0,5250
+160,31,Male,1,99.8,100,Month-to-month,Electronic Check,Fiber,6,1,550
+161,52,Female,52,54.5,2834,Two year,DSL,Bank Transfer,1,0,7000
+162,34,Male,16,77.5,1240,Month-to-month,Debit Card,Fiber,3,1,1950
+163,60,Female,70,41.2,2884,Two year,Credit Card,None,0,0,8150
+164,45,Male,25,67.5,1687,One year,Debit Card,DSL,2,0,4250
+165,38,Female,7,89.5,626,Month-to-month,Electronic Check,Fiber,5,1,1100
+166,63,Male,60,45.1,2706,Two year,Credit Card,None,1,0,7600
+167,49,Female,30,61.9,1857,One year,Bank Transfer,DSL,1,0,5000
+168,24,Male,2,99.9,200,Month-to-month,Electronic Check,Fiber,6,1,650
+169,54,Female,75,38.9,2917,Two year,Credit Card,None,0,0,8450
+170,36,Male,22,70.9,1559,One year,Debit Card,Fiber,2,0,4050
+171,40,Female,15,78.5,1177,Month-to-month,Electronic Check,Fiber,4,1,1900
+172,58,Male,65,43.1,2801,Two year,Credit Card,None,0,0,7850
+173,42,Female,33,62.5,2062,One year,DSL,Debit Card,1,0,4900
+174,27,Male,3,98.7,296,Month-to-month,Electronic Check,Fiber,6,1,700
+175,61,Female,72,39.9,2873,Two year,Credit Card,None,0,0,8200
+176,35,Male,24,69.8,1675,One year,Debit Card,Fiber,2,0,4250
+177,47,Female,10,86.5,865,Month-to-month,Electronic Check,Fiber,4,1,1350
+178,65,Male,74,38.8,2871,Two year,Credit Card,None,0,0,8400
+179,43,Female,36,60.8,2189,One year,Bank Transfer,DSL,1,0,5350
+180,28,Male,1,99.2,99,Month-to-month,Electronic Check,Fiber,6,1,550
+181,53,Female,60,50.1,3006,Two year,Bank Transfer,DSL,1,0,7100
+182,30,Male,14,81.5,1141,Month-to-month,Debit Card,Fiber,3,1,1850
+183,59,Female,75,39.5,2962,Two year,Credit Card,None,0,0,8400
+184,46,Male,26,68.1,1771,One year,Debit Card,DSL,2,0,4400
+185,32,Female,8,93.5,748,Month-to-month,Electronic Check,Fiber,5,1,1200
+186,62,Male,70,40.8,2856,Two year,Credit Card,None,0,0,8100
+187,49,Female,28,65.5,1834,One year,Bank Transfer,Fiber,2,0,4550
+188,25,Male,3,97.9,294,Month-to-month,Electronic Check,Fiber,6,1,700
+189,55,Female,68,44.9,3053,Two year,Credit Card,None,0,0,7950
+190,37,Male,20,71.5,1430,One year,Debit Card,Fiber,2,0,3850
+191,41,Female,10,84.8,848,Month-to-month,Electronic Check,Fiber,4,1,1500
+192,57,Male,60,42.5,2550,Two year,Credit Card,None,0,0,7650
+193,43,Female,30,64.9,1947,One year,DSL,Debit Card,1,0,4800
+194,26,Male,5,96.5,482,Month-to-month,Electronic Check,Fiber,5,1,950
+195,60,Female,72,40.2,2894,Two year,Credit Card,None,0,0,8250
+196,45,Male,22,72.8,1601,One year,Debit Card,Fiber,2,0,4100
+197,34,Female,18,75.5,1359,Month-to-month,Electronic Check,Fiber,4,1,2150
+198,63,Male,75,38.7,2902,Two year,Credit Card,None,0,0,8400
+199,48,Female,35,61.2,2142,One year,Bank Transfer,DSL,1,0,5300
+200,29,Male,1,98.5,98,Month-to-month,Electronic Check,Fiber,6,1,550
