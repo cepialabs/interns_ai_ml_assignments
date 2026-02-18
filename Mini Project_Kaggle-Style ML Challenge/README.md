@@ -1,144 +1,108 @@
-# 🚢 Titanic Survival Prediction – Mini Machine Learning Project
+# Heart Disease Prediction using Machine Learning
+
+## 📌 Project Overview
+This project aims to predict the presence of heart disease using Machine Learning techniques.  
+The model analyzes various medical attributes and classifies whether a patient has heart disease or not.
 
 ---
 
-## 📌 1. Introduction
-
-The Titanic disaster is one of the most famous shipwrecks in history. 
-This project aims to build a Machine Learning model to predict whether a passenger survived or not based on different features such as age, gender, ticket class, and fare.
-
-This is a **Binary Classification Problem** where:
-
-- 0 → Did Not Survive  
-- 1 → Survived  
+## 🎯 Objective
+- Perform data preprocessing and cleaning
+- Conduct Exploratory Data Analysis (EDA)
+- Build classification models
+- Evaluate model performance
+- Generate medical insights from feature importance
 
 ---
 
-## 🎯 2. Problem Statement
+## 📊 Dataset Information
+The dataset contains patient medical attributes such as:
 
-To develop a predictive model that determines the survival of passengers on the Titanic using available passenger data.
+- Age
+- Sex
+- Chest Pain Type (cp)
+- Resting Blood Pressure (trestbps)
+- Cholesterol (chol)
+- Fasting Blood Sugar (fbs)
+- Resting ECG (restecg)
+- Maximum Heart Rate (thalach)
+- Exercise Induced Angina (exang)
+- ST Depression (oldpeak)
+- Slope
+- Number of Major Vessels (ca)
+- Thalassemia (thal)
 
-The objective is to maximize classification accuracy and analyze the important factors influencing survival.
-
----
-
-## 📂 3. Dataset Description
-
-- Dataset Name: Titanic Dataset (Kaggle)
-- url: https://www.kaggle.com/datasets/heptapod/titanic
-- Total Records: 891
-- Total Features: 12
-- Target Variable: Survived
-- Problem Type: Classification
-
-### Important Features:
-
-- Pclass → Passenger Class (1, 2, 3)
-- Sex → Gender of passenger
-- Age → Age of passenger
-- SibSp → Number of siblings/spouses aboard
-- Parch → Number of parents/children aboard
-- Fare → Ticket fare
-- Embarked → Port of embarkation
-
-The dataset contains both numerical and categorical features.
+### 🎯 Target Variable
+- 0 → No Heart Disease
+- 1 → Heart Disease Present
 
 ---
 
-## 🧹 4. Data Preprocessing
-
-The following preprocessing steps were performed:
-
-- Checked for missing values
-- Filled missing values in Age and Embarked
-- Dropped unnecessary columns (Name, Ticket, Cabin)
-- Converted categorical variables (Sex, Embarked) using One-Hot Encoding
-- Split dataset into Training (80%) and Testing (20%)
-
-These steps ensured the dataset was clean and ready for model training.
+## 🛠 Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
 ---
 
-## 📊 5. Exploratory Data Analysis (EDA)
+## 🔎 Project Workflow
 
-Key observations from EDA:
+### 1️⃣ Data Preprocessing
+- Checked missing values
+- Handled missing data
+- Scaled numerical features using StandardScaler
+- Split dataset (80% Training, 20% Testing)
 
-- Female passengers had a significantly higher survival rate.
-- Passengers in 1st class had better survival probability.
-- Higher fare passengers were more likely to survive.
-- Younger passengers had slightly better survival chances.
+### 2️⃣ Exploratory Data Analysis
+- Class distribution visualization
+- Correlation heatmap
+- Boxplots and histograms
+- Feature relationship analysis
 
-Correlation heatmaps and count plots were used to understand feature relationships.
+### 3️⃣ Model Building
+- Logistic Regression (Baseline Model)
+- Random Forest Classifier (Ensemble Model)
 
----
-
-## 🤖 6. Model Building
-
-A Random Forest Classifier was used for prediction.
-
-Why Random Forest?
-
-- Handles non-linear relationships
-- Reduces overfitting
-- Works well with mixed data types
-- Provides feature importance analysis
-
-The model was trained using the training dataset.
-
----
-
-## 📈 7. Model Evaluation
-
-The model was evaluated using:
-
+### 4️⃣ Model Evaluation
 - Accuracy Score
 - F1 Score
 - Confusion Matrix
-
-### Example Results:
-
-- Accuracy: 85%
-- F1 Score: 0.84
-
-The confusion matrix showed that the model correctly classified most survival cases with minimal errors.
+- Cross-validation
 
 ---
 
-## ⭐ 8. Feature Importance
+## 📈 Results
 
-Feature importance analysis revealed:
+| Model | Accuracy |
+|--------|----------|
+| Logistic Regression | ~82–85% |
+| Random Forest | ~85–90% |
 
-- Sex was the most important feature.
-- Pclass strongly influenced survival.
-- Fare and Age had moderate importance.
-- SibSp and Parch had lower impact.
-
-This confirms that gender and socio-economic status played a major role in survival.
+Random Forest performed better and showed strong feature importance.
 
 ---
 
-## 💡 9. Insights & Recommendations
-
-- Women and first-class passengers had higher survival rates.
-- Social class and economic status significantly influenced survival.
-- Machine Learning models can effectively analyze historical data and extract meaningful insights.
-- Model performance can be improved further using hyperparameter tuning and advanced boosting algorithms.
+## 🔥 Key Insights
+- Chest pain type significantly affects prediction.
+- High cholesterol levels increase heart disease risk.
+- Ensemble models improve classification performance.
+- The model can assist in early detection of heart disease.
 
 ---
 
-## 🏁 10. Conclusion
+## 🚀 Future Improvements
+- Hyperparameter tuning
+- XGBoost implementation
+- Deployment using Flask/Streamlit
+- Integration with healthcare systems
 
-This project successfully developed a machine learning model to predict Titanic passenger survival.
+---
 
-The Random Forest model achieved good accuracy and provided meaningful insights into key survival factors.
-
-The project demonstrates:
-
-- Data preprocessing techniques
-- Exploratory Data Analysis
-- Model training and evaluation
-- Feature importance interpretation
-
-This mini project showcases practical application of Machine Learning in solving real-world problems.
+## 📌 Conclusion
+This project demonstrates an end-to-end Machine Learning pipeline for heart disease prediction.  
+The model can support medical professionals in early risk assessment.
 
 ---
