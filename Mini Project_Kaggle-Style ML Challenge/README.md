@@ -31,6 +31,7 @@ The dataset contains patient medical attributes such as:
 - Slope
 - Number of Major Vessels (ca)
 - Thalassemia (thal)
+- **URL:** https://www.kaggle.com/datasets/rishidamarla/heart-disease-prediction
 
 ### 🎯 Target Variable
 - 0 → No Heart Disease
