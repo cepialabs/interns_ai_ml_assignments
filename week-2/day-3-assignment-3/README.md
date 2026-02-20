@@ -116,10 +116,8 @@ This type of analysis is commonly used in **marketing analytics, revenue forecas
 
 ---
 
-## 👤 Author
+## 📌 Author
 
-**Krushna Chandra Bindhani**
-📌 Aspiring Data Scientist | Data Analytics | Python
-🔗 GitHub & LinkedIn (add your links here)
-
+**Shaik Ansar**
+AI/ML Intern @ Cepia Labs
 ---

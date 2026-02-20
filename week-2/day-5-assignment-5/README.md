@@ -72,8 +72,8 @@ This helps understand the impact of promotional strategies on customer retention
 
 ---
 
-## ✍️ Author
+## 📌 Author
 
-Krushna Chandra Bindhani
-
+**Shaik Ansar**
+AI/ML Intern @ Cepia Labs
 ---

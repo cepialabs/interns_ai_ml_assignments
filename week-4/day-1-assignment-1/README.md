@@ -213,8 +213,8 @@ This project successfully demonstrates:
 
 ---
 
-## 👤 Author
+## 📌 Author
 
-**Krushna Chandra Bindhani**
-
+**Shaik Ansar**
+AI/ML Intern @ Cepia Labs
 ---

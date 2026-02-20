@@ -70,5 +70,5 @@ My goal is to:
 
 ## 👤 Author
 
-**Krushna Chandra Bindhani**  
+**Shaik Ansar**  
 Aspiring Data Scientist / AI-ML Engineer  

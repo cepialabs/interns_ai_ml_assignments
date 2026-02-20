@@ -183,6 +183,8 @@ The best model is selected based on:
 
 ---
 
-## 👨‍💻 Author
+## 📌 Author
 
-**Krushna Chandra Bindhani**
+**Shaik Ansar**
+AI/ML Intern @ Cepia Labs
+---

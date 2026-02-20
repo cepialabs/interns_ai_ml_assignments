@@ -124,6 +124,8 @@ Random Forest performs better than basic models in most cases because it:
 
 ---
 
-## 👤 Author
+## 📌 Author
 
-Krushna Chandra Bindhani
+**Shaik Ansar**
+AI/ML Intern @ Cepia Labs
+---

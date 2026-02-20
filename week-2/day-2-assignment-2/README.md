@@ -129,9 +129,8 @@ This analysis helps marketing teams:
 
 ---
 
-## 👨‍💻 Author
+## 📌 Author
 
-**Krushna Chandra Bindhani**
-Data Science & Machine Learning Intern
-
+**Shaik Ansar**
+AI/ML Intern @ Cepia Labs
 ---

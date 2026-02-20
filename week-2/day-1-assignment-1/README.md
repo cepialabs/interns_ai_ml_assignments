@@ -123,9 +123,10 @@ This assignment repository accepts improvements! If you want to contribute:
 
 ---
 
-## 🙋‍ Contact
 
-Your Name – *Your Email or GitHub Profile Link*
-Project link: [https://github.com/cepialabs/interns_ai_ml_assignments](https://github.com/cepialabs/interns_ai_ml_assignments)
 
+## 📌 Author
+
+**Shaik Ansar**
+AI/ML Intern @ Cepia Labs
 ---

@@ -89,9 +89,8 @@ This project is ideal for:
 
 ---
 
-## 🙌 Author
+## 📌 Author
 
-**Krushna Chandra Bindhani**
-Aspiring Data Analyst | AI & ML Enthusiast
-
+**Shaik Ansar**
+AI/ML Intern @ Cepia Labs
 ---

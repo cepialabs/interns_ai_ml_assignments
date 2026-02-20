@@ -169,7 +169,8 @@ Open:
 
 ---
 
-## 👤 Author
-**Krushna Chandra Bindhani**
+## 📌 Author
 
+**Shaik Ansar**
+AI/ML Intern @ Cepia Labs
 ---

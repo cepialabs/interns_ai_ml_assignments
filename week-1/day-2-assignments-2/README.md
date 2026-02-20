@@ -108,3 +108,8 @@ You can extend this analysis by adding:
 * Interactive dashboards with Streamlit or Dash
 
 ---
+## 📌 Author
+
+**Shaik Ansar**
+AI/ML Intern @ Cepia Labs
+---

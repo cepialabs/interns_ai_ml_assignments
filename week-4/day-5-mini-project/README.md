@@ -297,5 +297,5 @@ This project successfully demonstrates a full Kaggle-style ML workflow:
 
 ## 👤 Author
 
-**Krushna Chandra Bindhani**
+**Shaik Ansar**
 Mini Project — Kaggle Style ML Challenge

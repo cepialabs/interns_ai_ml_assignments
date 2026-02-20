@@ -147,10 +147,8 @@ CustomerID, Age, Gender, Salary, Churn
 * Preparing data for ML
 
 ---
+## 📌 Author
 
-## 👨‍💻 Author
-
-**Krushna Chandra Bindhani**
-Intern / Aspiring Data Scientist
-
+**Shaik Ansar**
+AI/ML Intern @ Cepia Labs
 ---

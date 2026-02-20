@@ -66,10 +66,8 @@ This project demonstrates how **unsupervised clustering** can be used to segment
 
 ---
 
-## 👨‍🎓 Author
+## 📌 Author
+
 **Shaik Ansar**
-
+AI/ML Intern @ Cepia Labs
 ---
-
-## 📄 License
-This project is for **educational purposes only**.

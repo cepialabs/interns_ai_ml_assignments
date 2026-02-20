@@ -150,6 +150,8 @@ Random Forest generally performs better than basic regression models because:
 
 ---
 
-## 👤 Author
+## 📌 Author
 
-Krushna Chandra Bindhani
+**Shaik Ansar**
+AI/ML Intern @ Cepia Labs
+---

@@ -124,7 +124,9 @@ data-visualization.ipynb
 
 ---
 
-## 👨‍💻 Author
 
-**Krushna Chandra Bindhani**
-Intern / Data Science Enthusiast
+## 📌 Author
+
+**Shaik Ansar**
+AI/ML Intern @ Cepia Labs
+---
