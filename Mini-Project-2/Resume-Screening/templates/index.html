@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Resume Screening System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="card">
+
+        <h1>AI Resume Analyzer</h1>
+        <p class="subtitle">Smart Role Detection & Hiring Decision System</p>
+
+        <form action="/predict" method="post">
+
+            <label>Skills</label>
+            <input type="text" name="skills" required placeholder="Python, Machine Learning, SQL">
+
+            <label>Education</label>
+            <input type="text" name="education" required placeholder="B.Tech / M.Tech / MBA">
+
+            <label>Certifications</label>
+            <input type="text" name="certifications" placeholder="AWS / Google ML / CEH">
+
+            <label>Experience (Years)</label>
+            <input type="number" name="experience" required min="0">
+
+            <label>Salary Expectation ($)</label>
+            <input type="number" name="salary" required min="0">
+
+            <label>Projects Count</label>
+            <input type="number" name="projects" required min="0">
+
+            <button type="submit">Analyze Resume</button>
+
+        </form>
+
+        {% if role %}
+        <div class="result-card">
+            <h3>Analysis Result</h3>
+
+            <p><strong>Predicted Role:</strong> {{ role }}</p>
+
+            <p><strong>Hiring Decision:</strong> 
+                <span class="{{ 'hire' if 'Hire' in decision else 'reject' }}">
+                    {{ decision }}
+                </span>
+            </p>
+
+            <p><strong>Confidence:</strong> {{ confidence }}%</p>
+        </div>
+        {% endif %}
+
+        {% if error %}
+        <div class="error-card">
+            <p>Error: {{ error }}</p>
+        </div>
+        {% endif %}
+
+    </div>
+</div>
+
+</body>
+</html>
