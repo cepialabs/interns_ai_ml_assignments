@@ -27,141 +27,49 @@ The neural network used in this project consists of three layers:
 2. **Hidden Layer** – Processes the data using weights and activation functions  
 3. **Output Layer** – Produces the final prediction  
 
-### Structure
-
-```
-Input Layer (2 neurons)
-        ↓
-Hidden Layer (3 neurons)
-        ↓
-Output Layer (1 neuron)
-```
+## Overview
+This project explains the working of a **simple neural network with one hidden layer**.  
+It demonstrates how data moves from the **input layer to the output layer during training** and how the model learns patterns from the dataset.
 
 ---
 
+## Neural Network Architecture
+The neural network used in this project contains three layers:
 
-# Technologies Used
-
-- Python
-- NumPy
-
-```
-
----
-
-# How Data Flows During Training
-
-## 1. Input Layer
-The dataset is given as input to the neural network.
-
-Example:
-```
-[0,1]
-```
+- **Input Layer** – Receives the input data  
+- **Hidden Layer** – Processes the input using weights and activation functions  
+- **Output Layer** – Produces the final prediction  
 
 ---
 
-## 2. Hidden Layer Processing
+## How Data Flows During Training
 
-The inputs are multiplied with weights.
+### 1. Input Layer
+The input layer receives the dataset and sends the input features to the next layer for processing.
 
-```
-Hidden Input = Input × Weights
-```
+### 2. Hidden Layer Processing
+The input values are multiplied with weights and passed through an activation function.  
+This layer helps the network learn complex patterns from the data.
 
-Then an activation function is applied.
+### 3. Output Layer
+The processed data from the hidden layer is used to generate the final prediction.
 
-```
-Hidden Output = sigmoid(Hidden Input)
-```
+### 4. Error Calculation
+The predicted output is compared with the actual output to determine the error.
 
----
+### 5. Backpropagation
+The calculated error is propagated backward through the network to adjust the weights.
 
-## 3. Output Layer
+### 6. Weight Update
+The weights are updated to reduce the error and improve prediction accuracy.
 
-The hidden layer output is passed to the output layer.
-
-```
-Final Input = Hidden Output × Weights
-```
-
-Then sigmoid produces the prediction.
-
-```
-Predicted Output = sigmoid(Final Input)
-```
+### 7. Training Process
+The steps of forward propagation, error calculation, backpropagation, and weight update are repeated multiple times until the model learns the correct pattern.
 
 ---
 
-## 4. Error Calculation
-
-The predicted output is compared with the actual output.
-
-```
-Error = Actual Output − Predicted Output
-```
-
----
-
-## 5. Backpropagation
-
-The error is propagated backward through the network to adjust the weights.
-
-Steps:
-1. Calculate gradient
-2. Update output layer weights
-3. Update hidden layer weights
-
----
-
-## 6. Weight Update
-
-Weights are updated using the learning rate.
-
-```
-New Weight = Old Weight + Learning Rate × Gradient
-```
-
----
-
-# Training Process
-
-The following steps repeat many times:
-
-1. Forward propagation  
-2. Prediction  
-3. Error calculation  
-4. Backpropagation  
-5. Weight update  
-
-After many iterations, the neural network learns the correct pattern.
-
----
-
-# Expected Output
-
-After training, the neural network prints predicted values close to the expected output.
-
-Example:
-
-```
-Predicted Output:
-[[0.01]
- [0.98]
- [0.97]
- [0.02]]
-```
-
----
-
-# Learning Outcome
-
-By completing this assignment we understand:
-
-- Neural Network basics
-- Role of hidden layers
-- Forward propagation
-- Backpropagation
-- Training of neural networks
-
----
+## Learning Outcomes
+- Understanding of neural network basics  
+- Knowledge of hidden layer functionality  
+- Understanding of forward propagation and backpropagation  
+- Insight into the neural network training process
