@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model artifacts (optional if large)
+*.joblib
+
+# Generated plots
+models/plots/
+
+# CSV outputs
+models/*.csv
