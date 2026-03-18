@@ -44,7 +44,7 @@ Each image is flattened into a **784-dimensional vector** before being passed in
 ```
 mnist-digit-recognizer/
 │
-├── mnist_nn.py          # Main neural network implementation
+├── mnist_numpy.py       # Main neural network implementation
 ├── README.md            # Project documentation
 └── requirements.txt     # Required libraries
 ```
