@@ -68,18 +68,13 @@
 
 ## 🖥️ Installation & Setup
 
-### 1. Clone Repository
-* git clone https://github.com/karunanjalibodas/mnist-digit-recognizer.git
-* cd mnist-digit-recognizer
 
----
-
-### 2. Install Dependencies
+### 1. Install Dependencies
 * pip install -r requirements.txt
 
 ---
 
-### 3. Run Application
+### 2. Run Application
 * streamlit run app.py
 
 ---
