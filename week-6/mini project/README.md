@@ -135,10 +135,6 @@
 * Karunanjali
 * INT-2026-1462
 
----
 
-## ⭐ If you like this project
 
-* Give it a ⭐ on GitHub
-* Share with others
 
